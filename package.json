@@ -6,11 +6,25 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "test:update": "react-scripts test --env=jsdom --updateSnapshot",
+    "test:coverage": "react-scripts test --env=jsdom --coverage"
   },
   "dependencies": {
+    "material-ui": "^0.19.4",
     "react": "^16.0.0",
+    "react-animations": "^0.1.0",
+    "react-aux": "^1.0.1",
     "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14"
+    "react-icons": "^2.2.7",
+    "react-scripts": "1.0.14",
+    "styled-components": "^2.2.1",
+    "typeface-exo": "^0.0.35",
+    "typeface-roboto": "^0.0.35"
+  },
+  "devDependencies": {
+    "enzyme": "^3.1.0",
+    "enzyme-adapter-react-16": "^1.0.1",
+    "jest-enzyme": "^4.0.1",
+    "react-test-renderer": "^16.0.0"
   }
 }
