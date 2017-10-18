@@ -19,21 +19,8 @@ ShallowWrapper {
     "props": Object {
       "children": Array [
         <HeroBackground />,
-        <h2>
-          Website
-</h2>,
-        <p>
-          Lorem ipsum
-</p>,
-        <RaisedButton
-          disabled={false}
-          fullWidth={false}
-          href="https://github.com/dentemple"
-          label="Github Link"
-          labelPosition="after"
-          primary={false}
-          secondary={true}
-/>,
+        <AboutMeSection />,
+        <ProjectsSection />,
       ],
     },
     "ref": null,
@@ -50,38 +37,17 @@ ShallowWrapper {
       Object {
         "instance": null,
         "key": null,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Website",
-        },
+        "nodeType": "function",
+        "props": Object {},
         "ref": null,
-        "rendered": "Website",
-        "type": "h2",
+        "rendered": null,
+        "type": [Function],
       },
       Object {
         "instance": null,
         "key": null,
-        "nodeType": "host",
-        "props": Object {
-          "children": "Lorem ipsum",
-        },
-        "ref": null,
-        "rendered": "Lorem ipsum",
-        "type": "p",
-      },
-      Object {
-        "instance": null,
-        "key": null,
-        "nodeType": "class",
-        "props": Object {
-          "disabled": false,
-          "fullWidth": false,
-          "href": "https://github.com/dentemple",
-          "label": "Github Link",
-          "labelPosition": "after",
-          "primary": false,
-          "secondary": true,
-        },
+        "nodeType": "function",
+        "props": Object {},
         "ref": null,
         "rendered": null,
         "type": [Function],
@@ -97,21 +63,8 @@ ShallowWrapper {
       "props": Object {
         "children": Array [
           <HeroBackground />,
-          <h2>
-            Website
-</h2>,
-          <p>
-            Lorem ipsum
-</p>,
-          <RaisedButton
-            disabled={false}
-            fullWidth={false}
-            href="https://github.com/dentemple"
-            label="Github Link"
-            labelPosition="after"
-            primary={false}
-            secondary={true}
-/>,
+          <AboutMeSection />,
+          <ProjectsSection />,
         ],
       },
       "ref": null,
@@ -128,38 +81,17 @@ ShallowWrapper {
         Object {
           "instance": null,
           "key": null,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Website",
-          },
+          "nodeType": "function",
+          "props": Object {},
           "ref": null,
-          "rendered": "Website",
-          "type": "h2",
+          "rendered": null,
+          "type": [Function],
         },
         Object {
           "instance": null,
           "key": null,
-          "nodeType": "host",
-          "props": Object {
-            "children": "Lorem ipsum",
-          },
-          "ref": null,
-          "rendered": "Lorem ipsum",
-          "type": "p",
-        },
-        Object {
-          "instance": null,
-          "key": null,
-          "nodeType": "class",
-          "props": Object {
-            "disabled": false,
-            "fullWidth": false,
-            "href": "https://github.com/dentemple",
-            "label": "Github Link",
-            "labelPosition": "after",
-            "primary": false,
-            "secondary": true,
-          },
+          "nodeType": "function",
+          "props": Object {},
           "ref": null,
           "rendered": null,
           "type": [Function],

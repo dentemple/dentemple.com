@@ -1,7 +1,7 @@
 import styled, { keyframes } from 'styled-components'
-import { slideInUp } from 'react-animations'
+import { slideInDown } from 'react-animations'
 
-const Animation = keyframes`${slideInUp}`
+const Animation = keyframes`${slideInDown}`
 const StyledSection = styled.section`
   position: absolute;
   object-fit: cover;
@@ -13,8 +13,7 @@ const StyledSection = styled.section`
   z-index: 3;
   overflow: hidden;
   & > * {
-    animation: 1s ${Animation};
-    transition: all 0.5s;
+    animation: 0.5s ${Animation};
   }
 
   @media only screen and (max-width: 600px) {
@@ -22,6 +21,7 @@ const StyledSection = styled.section`
   }
 
   @media only screen and (max-width: 500px) {
+    top: 30%;
     font-size: 0.8em;
   }
 `

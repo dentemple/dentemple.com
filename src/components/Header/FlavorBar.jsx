@@ -19,7 +19,7 @@ const FlavorBar = styled.div`
   transform-origin: top left;
   border-radius: 2%;
   z-index: 3;
-  animation: 0.5s ${Animation};
+  animation: 3s ${Animation};
 `
 
 export default FlavorBar

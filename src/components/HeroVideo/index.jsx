@@ -15,14 +15,14 @@ class HeroBackground extends Component {
     }
   }
   componentDidMount() {
-    const delayInMilliseconds = 100
+    const delayInMilliseconds = 1000
     setTimeout(() => {
       this.setState({ isMounted: true })
     }, delayInMilliseconds)
   }
   render() {
     return (
-      <StyledWrapper>
+      <StyledWrapper id="home">
         {this.state.isMounted ? <BackgroundVideo /> : <BackgroundImage />}
         <Overlay />
         <Header />
