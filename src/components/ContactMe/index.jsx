@@ -17,7 +17,7 @@ const StyledDiv = styled.div`
 `
 const StyledInputButton = styled.input`
   margin: 10px auto;
-  font-size: 1.2em;
+  font-size: 1em;
   margin: 40px auto 10px;
   padding: 5px;
   background-color: rgb(216, 233, 243);
@@ -81,7 +81,6 @@ class ContactMe extends Component {
             <br />
             <input type="hidden" name="_subject" value="Website contact" />
             <input type="text" name="_gotcha" style={{ display: 'none' }} />
-            <input type="hidden" name="_next" value="//site.io/thanks.html" />
             <StyledInputButton type="submit" value="Send" />
           </StyledDiv>
         </form>
