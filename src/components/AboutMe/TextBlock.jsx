@@ -6,8 +6,8 @@ import Skills from './Skills'
 
 const StyledBlock = styled.div`
   align-self: flex-start;
-  font-size: 0.8em;
-  max-width: 50%;
+  font-size: 0.9em;
+  max-width: 60%;
 
   @media only screen and (max-width: 700px) {
     max-width: 80%;

@@ -5,7 +5,6 @@ import data from '../data'
 import HeroVideo from '../components/HeroVideo'
 import EmptyContentSection from '../components/EmptyContectSection'
 import AboutMe from '../components/AboutMe'
-import Projects from '../components/Projects'
 import ContactMe from '../components/ContactMe'
 
 class Home extends Component {
@@ -30,7 +29,6 @@ class Home extends Component {
       <Aux>
         <EmptyContentSection />
         <EmptyContentSection />
-        <EmptyContentSection />
       </Aux>
     )
   }
@@ -38,7 +36,6 @@ class Home extends Component {
     return (
       <Aux>
         <AboutMe {...this.state.about} skills={this.state.skills} />
-        <Projects projects={this.state.projects} />
         <ContactMe contact={this.state.contact} />
       </Aux>
     )

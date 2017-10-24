@@ -14,14 +14,14 @@ const data = {
     'Javascript ES6+',
     'React/React Native',
     'Node.js',
-    'Material UI',
+    'Material Design',
     'Python',
     'Machine Learning',
     'Social Media Apps',
     'Agile/Scrum',
     'Github'
   ],
-  projects: {}
+  projects: []
 }
 
 export default data
