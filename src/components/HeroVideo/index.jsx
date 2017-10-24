@@ -15,7 +15,7 @@ class HeroBackground extends Component {
     }
   }
   componentDidMount() {
-    const delayInMilliseconds = 2000
+    const delayInMilliseconds = 1500
     setTimeout(() => {
       this.setState({ isMounted: true })
     }, delayInMilliseconds)

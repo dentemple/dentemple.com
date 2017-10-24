@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import img from './busy-people.jpg'
 
 const StyledImage = styled.img`
   position: absolute;
@@ -11,7 +12,7 @@ const StyledImage = styled.img`
 const BackgroundImage = () => (
   <StyledImage
     alt="people walking in an office hallway"
-    src="https://s3.us-east-2.amazonaws.com/dentemple/dentemple.com/busy-people.jpg"
+    src={`${img}`}
   />
 )
 

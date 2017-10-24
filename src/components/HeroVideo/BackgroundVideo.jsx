@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import img from './busy-people.jpg'
 
 const StyledVideo = styled.video`
   position: absolute;
@@ -10,7 +11,7 @@ const StyledVideo = styled.video`
 
 const BackgroundVideo = () => (
   <StyledVideo
-    poster="https://s3.us-east-2.amazonaws.com/dentemple/dentemple.com/busy-people.jpg"
+    poster={`${img}`}
     id="hero-video"
     playsInline
     autoPlay
@@ -24,10 +25,7 @@ const BackgroundVideo = () => (
       type="video/webm"
       src="https://s3.us-east-2.amazonaws.com/dentemple/dentemple.com/busy-people.webm"
     />
-    <img
-      alt="people walking in an office hallway"
-      src="https://s3.us-east-2.amazonaws.com/dentemple/dentemple.com/busy-people.jpg"
-    />
+    <img alt="people walking in an office hallway" src={`${img}`} />
     Your browser does not support the video tag. Please upgrade your browser to
     see it.
   </StyledVideo>
