@@ -1,13 +1,11 @@
 import React, { Component } from 'react'
-import Async from 'react-code-splitting'
 
 import StyledWrapper from './StyledWrapper'
+import BackgroundVideo from './BackgroundVideo'
 import BackgroundImage from './BackgroundImage'
 import Overlay from './Overlay'
 import Header from '../Header'
 import CallToAction from '../CallToAction'
-
-const BackgroundVideo = () => <Async load={import('./BackgroundVideo')} />
 
 class HeroBackground extends Component {
   constructor() {
