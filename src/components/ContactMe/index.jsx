@@ -56,7 +56,7 @@ class ContactMe extends Component {
               name="name"
               hintText="Full Name"
               onChange={event => this.handleChange(event)}
-              maxlength={50}
+              maxLength={50}
               fullWidth={true}
               required
             />{' '}
@@ -65,7 +65,7 @@ class ContactMe extends Component {
               name="_replyto"
               hintText="Email Address"
               onChange={event => this.handleChange(event)}
-              maxlength={100}
+              maxLength={100}
               fullWidth={true}
               required
             />{' '}
@@ -74,7 +74,7 @@ class ContactMe extends Component {
               name="message"
               hintText="Message (max: 10,000 characters)"
               onChange={event => this.handleChange(event)}
-              maxlength={10000}
+              maxLength={10000}
               rows={2}
               fullWidth={true}
               required

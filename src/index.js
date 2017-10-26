@@ -5,6 +5,7 @@ import 'typeface-exo'
 import 'typeface-roboto'
 
 import App from './page/App'
+import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider'
 import registerServiceWorker from './registerServiceWorker'
 
 injectGlobal`
@@ -20,5 +21,10 @@ injectGlobal`
   }
 `
 
-render(<App />, document.getElementById('root'))
+render(
+  <MuiThemeProvider>
+    <App />
+  </MuiThemeProvider>,
+  document.getElementById('root')
+)
 registerServiceWorker()

@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
+import Async from 'react-code-splitting'
 
 import ContentSection from '../ContentSection'
-import EmptyImage from './EmptyImage'
-import ProfileImage from './ProfileImage'
 import TextBlock from './TextBlock'
 
 const Container = styled.div`
@@ -14,6 +13,9 @@ const Container = styled.div`
   flex-wrap: wrap;
   justify-content: center;
 `
+
+const ProfileImage = () => <Async load={import('./ProfileImage')} />
+const EmptyImage = () => <Async load={import('./EmptyImage')} />
 
 class AboutMe extends Component {
   constructor() {
