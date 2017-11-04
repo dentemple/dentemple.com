@@ -1,10 +1,11 @@
-# Personal website for Den Temple [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
+# Portfolio website for Den Temple [![styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 
-An open-source website using React and CSS Animations.
+An open-source project using React.js
 
-[Find me on Twitter!](https://twitter.com/dentemple)
+*Now with gratuitous amounts of code splitting!*
 
-[Find me on LinkedIn!](https://www.linkedin.com/in/dentemple)
+[Twitter](https://twitter.com/dentemple) · [LinkedIn](https://www.linkedin.com/in/dentemple) · [Medium](https://medium.com/@dentemple)
+
 
 ## Try it out
 
@@ -33,4 +34,4 @@ An open-source website using React and CSS Animations.
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-The Hero Video ("Busy Video") is available under the Public Domain at [Coverr](coverr.co/license_and_faq).
+The landing video ("Busy Video") is available under the Public Domain at [Coverr](coverr.co/license_and_faq).

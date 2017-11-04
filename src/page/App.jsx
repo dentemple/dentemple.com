@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Aux from 'react-aux'
 
 import data from '../data'
+import Projects from './Projects'
 import HeroVideo from '../components/HeroVideo'
 import EmptyContentSection from '../components/EmptyContectSection'
 import AboutMe from '../components/AboutMe'
@@ -29,6 +30,7 @@ class Home extends Component {
       <Aux>
         <EmptyContentSection />
         <EmptyContentSection />
+        <EmptyContentSection />
       </Aux>
     )
   }
@@ -36,6 +38,7 @@ class Home extends Component {
     return (
       <Aux>
         <AboutMe {...this.state.about} skills={this.state.skills} />
+        <Projects />
         <ContactMe contact={this.state.contact} />
       </Aux>
     )
