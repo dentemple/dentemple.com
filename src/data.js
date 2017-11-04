@@ -2,9 +2,10 @@ const data = {
   about: {
     location: 'Scranton, PA',
     position: 'Freelance',
-    sinceDate: 'April 2017',
-    blurb:
-      'A full-stack developer based in the United States. Den specializes in Javascript applications and web design.'
+    sinceDate: '2017',
+    blurb: 'Web • Mobile • VR Development',
+    description:
+      'An app developer specializing in cross-platform Javascript. Former Analyst Programmer for Penn Foster Schools.'
   },
   contact: {
     phone: '',
@@ -13,11 +14,11 @@ const data = {
   skills: [
     'Javascript ES6+',
     'React/React Native',
+    'NativeScript',
     'Node.js',
     'Material Design',
     'Python',
     'Machine Learning',
-    'Social Media Apps',
     'Agile/Scrum',
     'Github'
   ],

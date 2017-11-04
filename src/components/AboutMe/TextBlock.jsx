@@ -24,12 +24,19 @@ const StyledP = styled.p`
   margin: 0 10px 20px;
 `
 
-const TextBlock = ({ location, position, sinceDate, blurb, skills }) => (
+const TextBlock = ({
+  location,
+  position,
+  sinceDate,
+  blurb,
+  description,
+  skills
+}) => (
   <StyledBlock>
     <SubHeading>
-      {location} • {position} since {sinceDate}
+      {blurb} in {location}
     </SubHeading>
-    <StyledP>{blurb}</StyledP>
+    <StyledP>{description}</StyledP>
     <SubHeading>Technical Skills</SubHeading>
     <Skills skills={skills} />
   </StyledBlock>
