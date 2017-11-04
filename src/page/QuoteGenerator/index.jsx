@@ -4,7 +4,9 @@ import ProjectContainer from '../../components/ProjectContainer'
 class QuoteGenerator extends Component {
   render() {
     return (
-      <ProjectContainer githubUrl="https://github.com">
+      <ProjectContainer
+        header="Random Quote Generator"
+        githubUrl="https://github.com">
         Example Project
       </ProjectContainer>
     )

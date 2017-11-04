@@ -1,24 +1,15 @@
 import React from 'react'
-import styled, { keyframes } from 'styled-components'
-import { fadeIn } from 'react-animations'
-
-import image from './profile.jpg'
 import Avatar from 'material-ui/Avatar'
 
-const Animation = keyframes`${fadeIn}`
-const StyledContainer = styled.div`
-  margin: 10px;
-  & > * {
-    animation: 0.5s ${Animation};
-  }
-`
+import image from './profile.jpg'
+import AnimateContents from '../AnimateContents'
 
 const ProfileImage = () => {
   const pixels = 250
   return (
-    <StyledContainer>
-      <Avatar src={image} size={pixels} />
-    </StyledContainer>
+    <AnimateContents>
+      <Avatar src={image} size={pixels} style={{ margin: '20px 30px' }} />
+    </AnimateContents>
   )
 }
 

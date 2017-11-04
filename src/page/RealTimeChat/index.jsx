@@ -4,7 +4,7 @@ import ProjectContainer from '../../components/ProjectContainer'
 class RealTimeChat extends Component {
   render() {
     return (
-      <ProjectContainer githubUrl="https://github.com">
+      <ProjectContainer header="Real Time Chat" githubUrl="https://github.com">
         Example Project
       </ProjectContainer>
     )
