@@ -5,9 +5,9 @@ import Paper from 'material-ui/Paper'
 
 const Animation = keyframes`${fadeIn}`
 const StyledSection = styled.section`
-  max-width: 900px;
+  max-width: 1000px;
   padding: 10px 30px;
-  margin: 0 auto;
+  margin: 30px auto;
 
   & > * {
     animation: 0.5s ${Animation};
@@ -16,8 +16,7 @@ const StyledSection = styled.section`
 
 const ContentSection = ({ heading, id, children }) => (
   <StyledSection id={id}>
-    <Paper zDepth={2} style={{ padding: '5px 20px' }}>
-      <h2 style={{ textAlign: 'center' }}>{heading}</h2>
+    <Paper zDepth={1} style={{ padding: '5px 20px' }}>
       {children}
     </Paper>
   </StyledSection>

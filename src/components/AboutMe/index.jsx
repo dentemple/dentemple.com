@@ -29,7 +29,7 @@ class AboutMe extends Component {
   }
   render() {
     return (
-      <ContentSection heading="" id="about">
+      <ContentSection id="about">
         <Container>
           {this.state.isMounted ? <ProfileImage /> : <EmptyImage />}
           <TextBlock {...this.props} />

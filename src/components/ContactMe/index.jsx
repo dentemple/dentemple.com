@@ -46,7 +46,8 @@ class ContactMe extends Component {
   }
   render() {
     return (
-      <ContentSection heading="Contact Me" id="contact">
+      <ContentSection id="contact">
+        <h2 style={{ textAlign: 'center' }}>Contact Me</h2>
         <form
           action={`//formspree.io/developer@dentemple.com`}
           id="contact"
