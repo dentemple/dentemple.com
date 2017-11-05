@@ -11,7 +11,7 @@ const MenuItems = () => (
       <a href="#about">About</a>
     </MenuItem>
     <MenuItem>
-      <a href="#projects">Projects</a>
+      <a href="#demos">Demos</a>
     </MenuItem>
     <MenuItem>
       <a href="#contact">Contact</a>

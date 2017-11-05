@@ -6,11 +6,11 @@ import Divider from 'material-ui/Divider'
 import ReturnLink from './ReturnLink'
 import GithubLink from './GithubLink'
 
-const ProjectNavigation = ({ githubUrl }) => (
+const ProjectNavigation = ({ url }) => (
   <Aux>
     <Divider />
     <BottomNavigation style={{ fontSize: '1.9em', margin: 10 }}>
-      <GithubLink githubUrl="https://www.github.com" />
+      <GithubLink url={url} />
       <ReturnLink />
     </BottomNavigation>
   </Aux>

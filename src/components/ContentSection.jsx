@@ -4,7 +4,7 @@ import Paper from 'material-ui/Paper'
 import AnimateContents from './AnimateContents'
 
 const StyledSection = styled.section`
-  max-width: 1000px;
+  max-width: 900px;
   padding: 10px 30px;
   margin: 30px auto;
 `
@@ -12,7 +12,7 @@ const StyledSection = styled.section`
 const ContentSection = ({ heading, id, children }) => (
   <StyledSection id={id}>
     <AnimateContents>
-      <Paper zDepth={1} style={{ padding: '5px 20px' }}>
+      <Paper zDepth={1} style={{ padding: '5px 20px 20px' }}>
         {children}
       </Paper>
     </AnimateContents>

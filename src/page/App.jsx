@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Aux from 'react-aux'
 
 import data from '../data'
-import Projects from './Projects'
+import Showcase from './Showcase'
 import HeroVideo from '../components/HeroVideo'
 import EmptyContentSection from '../components/EmptyContectSection'
 import AboutMe from '../components/AboutMe'
@@ -14,9 +14,9 @@ class Home extends Component {
     this.state = {
       isMounted: false,
       about: data.about,
+      contact: data.contact,
       skills: data.skills,
-      projects: data.projects,
-      contact: data.contact
+      showcase: data.showcase
     }
   }
   componentDidMount() {
@@ -35,11 +35,12 @@ class Home extends Component {
     )
   }
   renderFullContent() {
+    const { about, skills, contact, showcase } = this.state
     return (
       <Aux>
-        <AboutMe {...this.state.about} skills={this.state.skills} />
-        <Projects />
-        <ContactMe contact={this.state.contact} />
+        <AboutMe {...about} skills={skills} />
+        <Showcase showcase={showcase} />
+        <ContactMe contact={contact} />
       </Aux>
     )
   }

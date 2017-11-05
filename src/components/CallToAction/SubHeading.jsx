@@ -1,8 +1,8 @@
 import React from 'react'
 import SocialMediaIcon from './SocialMediaIcon'
-import { Twitter, LinkedIn, Medium } from '../Icons'
+import { Twitter, LinkedIn, Medium } from '../icons'
 
-const SubHeading = () => (
+const Subheading = () => (
   <p style={{ margin: '10px 1px' }}>
     <span>Software Developer |</span>
     <span style={{ display: 'inline-block' }}>
@@ -25,4 +25,4 @@ const SubHeading = () => (
   </p>
 )
 
-export default SubHeading
+export default Subheading

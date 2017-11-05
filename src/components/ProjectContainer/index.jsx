@@ -6,15 +6,14 @@ import Header from './Header'
 import ProjectNavigation from './ProjectNavigation'
 
 const StyledArticle = styled.article`
-  margin: 50px;
-  border-radius: 10%;
+  margin: 20px 10px;
 `
 
-const ProjectContainer = ({ githubUrl, header, children }) => (
+const ProjectContainer = ({ url, header, children }) => (
   <Aux>
     <Header header={header} />
     <StyledArticle>{children}</StyledArticle>
-    <ProjectNavigation githubUrl={githubUrl} />
+    <ProjectNavigation url={url} />
   </Aux>
 )
 

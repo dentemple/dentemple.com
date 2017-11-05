@@ -1,9 +1,9 @@
 import React from 'react'
 import { BottomNavigationItem } from 'material-ui/BottomNavigation'
-import { GithubIcon } from '../Icons'
+import { GithubIcon } from '../icons'
 
-const GithubLink = ({ githubUrl }) => (
-  <a href={githubUrl}>
+const GithubLink = ({ url }) => (
+  <a href={url}>
     <BottomNavigationItem label="View the Code" icon={GithubIcon} />
   </a>
 )

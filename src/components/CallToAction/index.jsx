@@ -2,14 +2,14 @@ import React from 'react'
 import StyledSection from './StyledSection'
 import StyledText from './StyledText'
 import MainHeading from './MainHeading'
-import SubHeading from './SubHeading'
+import Subheading from './Subheading'
 import ButtonBar from './ButtonBar'
 
 const CallToAction = () => (
   <StyledSection>
     <StyledText>
       <MainHeading />
-      <SubHeading />
+      <Subheading />
     </StyledText>
     <ButtonBar />
   </StyledSection>

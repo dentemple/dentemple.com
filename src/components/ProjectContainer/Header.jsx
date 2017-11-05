@@ -4,7 +4,7 @@ import Divider from 'material-ui/Divider'
 
 const Header = ({ header }) => (
   <Aux>
-    <h2 style={{ textAlign: 'center' }}>{header}</h2>
+    <h3 style={{ textAlign: 'center' }}>{header}</h3>
     <Divider />
   </Aux>
 )

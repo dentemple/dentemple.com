@@ -9,7 +9,7 @@ const StyledButton = styled.button`
   cursor: pointer;
   outline: none;
   transition-property: transform;
-  transition-duration: 0.3s;
+  transition-duration: 0.2s;
 
   &:hover {
     -webkit-transform: scale(1.2);

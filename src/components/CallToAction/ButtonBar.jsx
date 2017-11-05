@@ -2,7 +2,9 @@ import React from 'react'
 import styled from 'styled-components'
 import RaisedButton from 'material-ui/RaisedButton'
 
-const StyledSection = styled.section`margin-top: 20px;`
+const StyledSection = styled.section`
+  margin-top: 20px;
+`
 
 const ButtonBar = () => {
   const styleOverride = {
@@ -13,8 +15,8 @@ const ButtonBar = () => {
   return (
     <StyledSection>
       <RaisedButton
-        href="https://github.com/dentemple/dentemple.com"
-        label="View on Github"
+        href="#demos"
+        label="View Demos"
         secondary={true}
         style={styleOverride}
         labelStyle={{ fontSize: '0.9em' }}
