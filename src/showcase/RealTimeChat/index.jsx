@@ -38,7 +38,9 @@ class RealTimeChat extends Component {
   }
 
   componentDidMount() {
-    this.socket = io('localhost:8080')
+    this.socket = io(
+      'http://dentemple-websocket.us-east-2.elasticbeanstalk.com/'
+    )
     this.socket.on('message', data => {
       this.setState({ messages: [...this.state.messages, data] })
     })
@@ -62,7 +64,9 @@ class RealTimeChat extends Component {
 
   render() {
     return (
-      <ProjectContainer header="Real Time Chat" githubUrl="https://github.com">
+      <ProjectContainer
+        header="Real Time Chat"
+        githubUrl="https://github.com/dentemple/chat-app-demo">
         <StyledColumn>
           <MessagesWindow messages={this.state.messages} />
           <Greeting />
