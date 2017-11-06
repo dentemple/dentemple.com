@@ -15,11 +15,9 @@ const data = {
   },
   skills: [
     'Javascript ES6+',
-    'React/React Native',
-    'NativeScript',
+    'React',
     'Node.js',
     'Material Design',
-    'Python',
     'Machine Learning',
     'Agile/Scrum',
     'Github'
