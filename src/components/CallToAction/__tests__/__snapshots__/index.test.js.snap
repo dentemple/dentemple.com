@@ -20,7 +20,7 @@ ShallowWrapper {
       "children": Array [
         <styled.div>
           <MainHeading />
-          <SubHeading />
+          <Subheading />
 </styled.div>,
         <ButtonBar />,
       ],
@@ -34,7 +34,7 @@ ShallowWrapper {
         "props": Object {
           "children": Array [
             <MainHeading />,
-            <SubHeading />,
+            <Subheading />,
           ],
         },
         "ref": null,
@@ -81,7 +81,7 @@ ShallowWrapper {
         "children": Array [
           <styled.div>
             <MainHeading />
-            <SubHeading />
+            <Subheading />
 </styled.div>,
           <ButtonBar />,
         ],
@@ -95,7 +95,7 @@ ShallowWrapper {
           "props": Object {
             "children": Array [
               <MainHeading />,
-              <SubHeading />,
+              <Subheading />,
             ],
           },
           "ref": null,
