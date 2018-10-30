@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Denny S. Temple | Software Engineer in New York, NY</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Styles are placed in the head for the most optimal loading experience -->
+  <style>
+    body {
+      max-width: 650px;
+      margin: 40px auto;
+      padding: 0 10px;
+      font: 18px/1.5 -apple-system, BlinkMacSystemFont, "avenir next", avenir, "Segoe UI", "lucida grande", "helvetica neue", helvetica, "Fira Sans", roboto, noto, "Droid Sans", cantarell, oxygen, ubuntu, "franklin gothic medium", "century gothic", "Liberation Sans", sans-serif;
+      color: #444
+    }
+    h1,
+    h2{
+      line-height: 1.2;
+      margin: 2em 0 0;
+    }
+    h3 {
+      line-height: 1;
+      font-size: 1em;
+      font-weight: inherit;
+    }
+    li {
+      list-style-type: none;
+      position: relative;
+    }
+    li::before {
+      content: '\2022';
+      position: absolute;
+      left: -2.6em;
+      font-size: 0.8em;
+    }
+    .chips {
+      /* flexbox */
+      -webkit-display: flex;
+      -moz-display: flex;
+      -ms-display: flex;
+      -o-display: flex;
+      display: flex;
+      /* flex-wrap */
+      -webkit-flex-wrap: wrap;
+      -moz-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      -o-flex-wrap: wrap;
+      flex-wrap: wrap;
+    }
+    .chips > * {
+      font-size: 0.8em;
+      white-space: nowrap;
+      background-color: #d8e9f3;
+      border-radius: 16px;
+      width: fit-content;
+      text-align: center;
+      min-width: 80px;
+      padding: 2px 12px;
+      margin: 3px 5px;
+      cursor: default;
+    }
+    .chips > *::before {
+      content: none;
+    }
+    footer {
+      background-color: #d8e9f3;
+      box-shadow: 0 50vh 0 50vh #d8e9f3;
+      margin-top: 100px;
+      padding: 20px 0 0;
+      text-align: right;
+    }
+  </style>
+</head>
+
+<body>
+  <!--
+    Bundlers aren't all bad.
+    Still, please enjoy a Javascript-free experience for your visit here today.
+  -->
+  <header>
+    <h1>Need a Web Developer?</h1>
+    <p>My name's Denny, and I can build what you need.</p>
+    <h2>Highly experienced in developing custom functionality for any platform.</h2>
+    <p><strong>Available today for cross-platform, single-page-applications</strong></p>
+    <p>My specialty is with building scalable React and NodeJS applications. I've also published
+      open-source GraphQL libraries to <code>npm</code>, written Python and SQL automation scripts for a mid-sized call
+      center, and deployed
+      UI components to 980+ automotive industry websites.</p>
+  </header>
+  <main>
+    <section>
+      <h2>Skills</h2>
+      <hr>
+      <article>
+        <h3><strong>Strong</strong></h3>
+        <ul class="chips">
+          <li>Javascript</li>
+          <li>React</li>
+          <li>Redux</li>
+          <li>Node.js</li>
+          <li>Express</li>
+          <li>PostgreSQL</li>
+          <li>VBA</li>
+          <li>HTML/CSS</li>
+          <li>Flexbox</li>
+          <li>Jest</li>
+        </ul>
+
+        <h3><strong>Experienced</strong></h3>
+        <ul class="chips">
+          <li>GraphQL</li>
+          <li>Webpack</li>
+          <li>Babel</li>
+          <li>BCrypt</li>
+          <li>NoSQL</li>
+          <li>Mocha</li>
+          <li>jQuery</li>
+          <li>Python</li>
+          <li>Django</li>
+          <li>Bash/Linux</li>
+        </ul>
+      </article>
+    </section>
+    <section>
+      <h2>Prior Roles</h2>
+      <hr>
+      <article>
+        <h3><strong>Black Wasp Tech</strong> <small>(<a href="https://www.linkedin.com/company/black-wasp-tech/">Website</a>)</small> | <em>Software Engineer</em> </h3>
+        <ul>
+          <li> Reduced GraphQL API response latency by building a series of micro-libraries to handle calls w/o dramatically increasing bundle sizes</li>
+          <li> Automated GraphQL queries with custom Redux middleware</li>
+          <li> Encapsulated GraphQL requests with Promise-based methods to provide a developer-friendly API</li>
+          <li> Encapsulated GraphQL requests with Promise-based methods to provide a framework-agnostic, developer-friendly API</li> 
+        </ul>
+      </article>
+      <article>
+        <h3><strong>Den Temple Engineering</strong> | <em>Full Stack Engineer</em></h3>
+        <ul>
+          <li> Bootstrapped a social media MVP with Node.js, React, and GraphQL for a UK-based organization</li> 
+          <li> Developed React-Redux components for a US-based political agency</li> 
+          <li> Resolved React scalability issues for a Washington-based health-care agency</li> 
+          <li> Utilized Foundation to generate CSS designs for several clients on the Shopify platform</li> 
+        </ul>
+      </article>
+      <article>
+        <h3><strong>Net Driven</strong> <small>(<a href="https://www.netdriven.com/">Website</a>)</small> | <em>Front End Engineer</em> </h3>
+        <ul>
+          <li> Leveraged React and .NET Core to showcase improved page load speed, as well as to resolve cross-platform compatibility issues</li>
+          <li> Developed UI components for 980+ HTML/CSS/JS-based websites</li>
+          <li> Optimized websites by utilizing CSS Flexbox to reduce scalability issues by removing and refactoring image-based content</li>
+          <li> Led training sessions on Responsive CSS Design and Javascript DOM manipulation</li>
+        </ul>
+      </article>
+      <article>
+        <h3><strong>Penn Foster</strong> <small>(<a href="https://www.pennfoster.edu">Website</a>)</small> | <em>Analyst Programmer</em> </h3>
+        <ul>
+          <li> Deployed a Django-based CMS to unify existing scripts across three separate SQL database instances, vastly improving the C-Suite team’s predictive analytics</li>
+          <li> Wrote Python scripts to feed PostgreSQL data via cURL commands to a Machine Learning API</li>
+          <li> Wrote VBA scripts to feed SQL Server and MS Access data to IBM AS400 clients</li>
+          <li> Built a Javascript-based progression calculator for deployment on an existing .NET platform</li>
+        </ul>
+      </article>
+    </section>
+    <section>  
+      <h2>Public Talks</h2>
+      <hr>
+      <article>
+        <p>
+          <strong>Build with Code - New York</strong> <br>
+          <em>"No Time to REST: Transitioning an API to GraphQL"</em> (2018)
+        </p>
+      </article>
+      <article>
+          <p>
+            <strong>NEPA Tech</strong> <br>
+            <em>"Build Your Next App in React"</em> (2017)
+          </p>
+        </article>
+    </section>
+    <section>  
+      <h2>Education</h2>
+      <hr>
+      <p><strong>Codesmith</strong> | <em>Open Source Residency for Experienced Programmers</em></p>
+      <p><strong>University of Scranton</strong></p>
+    </section>
+    <section>  
+      <h2>Interests</h2>
+      <hr>
+      <p>I'm also a published poet and a 10-year NaNoWriMo participant.</p>
+      <p>I also drink Turkish Coffee, watch seasonally-airing anime, and enjoy building my own games.</p>
+    </section>
+    <section>
+      <h2>Contact</h2>
+      <hr>
+      <h3><strong>Get in touch with me today:</strong></h3>
+      <ul>
+        <li><a href="https://www.linkedin.com/in/dentemple/" title="LinkedIn">LinkedIn</a></li>
+        <li><a href="https://twitter.com/dentemple" title="Twitter">Twitter</a></li>
+        <li><a href="https://angel.co/dentemple" title="AngelList">AngelList</a></li>
+        <li><a href="https://github.com/dentemple" title="Github">Github</a></li>
+        <li><a href="mailto:dev@dentemple.com" title="dev@dentemple.com">Email</a></li>
+      </ul>
+    </section>
+  </main>
+  <footer>
+    <small>
+      <p><strong>© 2018 Denny S. Temple</strong></p>
+      <p>This website is open sourced under the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
+      <p><a href="https://dentemple.com">dentemple.com</a> does not install any tracking software nor collects any data. </p>
+      <p>The source code can be viewed <a href="https://github.com/dentemple/dentemple.com">here</a>.</p>
+    </small>
+  </footer>
+  <!--
+    Thanks for stopping by!
+  -->
+</body>
+
+</html>
+
