@@ -1,0 +1,71 @@
+body {
+  max-width: 650px;
+  margin: 40px auto;
+  padding: 0 10px;
+  font: 18px/1.5 -apple-system, BlinkMacSystemFont, "avenir next", avenir, "Segoe UI", "lucida grande", "helvetica neue", helvetica, "Fira Sans", roboto, noto, "Droid Sans", cantarell, oxygen, ubuntu, "franklin gothic medium", "century gothic", "Liberation Sans", sans-serif;
+  color: #444
+}
+
+h1,
+h2 {
+  line-height: 1.2;
+  margin: 2em 0 0;
+}
+
+h3 {
+  line-height: 1;
+  font-size: 1em;
+  font-weight: inherit;
+}
+
+li {
+  list-style-type: none;
+  position: relative;
+}
+
+li::before {
+  content: '\2022';
+  position: absolute;
+  left: -2.6em;
+  font-size: 0.8em;
+}
+
+.chips {
+  /* flexbox */
+  -webkit-display: flex;
+  -moz-display: flex;
+  -ms-display: flex;
+  -o-display: flex;
+  display: flex;
+  /* flex-wrap */
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  -o-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.chips>* {
+  font-size: 0.8em;
+  white-space: nowrap;
+  background-color: #d8e9f3;
+  border-radius: 16px;
+  width: fit-content;
+  text-align: center;
+  min-width: 80px;
+  padding: 2px 12px;
+  margin: 3px 5px;
+  cursor: default;
+}
+
+.chips>*::before {
+  content: none;
+}
+
+footer {
+  background-color: #d8e9f3;
+  box-shadow: 0 50vh 0 50vh #d8e9f3;
+  margin-top: 100px;
+  padding: 20px 0 0;
+  text-align: right;
+}
