@@ -10,6 +10,10 @@ The most responsive site on the internet.
 - [Github](https://github.com/dentemple)
 - [Email](mailto:dev@dentemple.com)
 
+## Code of Conduct
+
+[Read here](CODE-OF-CONDUCT.md).
+
 ## License
 
-MIT
+Open sourced under the [MIT License](LICENSE).
