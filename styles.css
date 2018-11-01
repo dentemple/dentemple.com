@@ -2,8 +2,11 @@ body {
   max-width: 650px;
   margin: 40px auto;
   padding: 0 10px;
-  font: 18px/1.5 -apple-system, BlinkMacSystemFont, "avenir next", avenir, "Segoe UI", "lucida grande", "helvetica neue", helvetica, "Fira Sans", roboto, noto, "Droid Sans", cantarell, oxygen, ubuntu, "franklin gothic medium", "century gothic", "Liberation Sans", sans-serif;
-  color: #444
+  font: 18px/1.5 -apple-system, BlinkMacSystemFont, 'avenir next', avenir,
+    'Segoe UI', 'lucida grande', 'helvetica neue', helvetica, 'Fira Sans',
+    roboto, noto, 'Droid Sans', cantarell, oxygen, ubuntu,
+    'franklin gothic medium', 'century gothic', 'Liberation Sans', sans-serif;
+  color: #444;
 }
 
 h1,
@@ -18,11 +21,11 @@ h3 {
   font-weight: inherit;
 }
 
+/* Strategy for reducing font-size of bullets */
 li {
   list-style-type: none;
   position: relative;
 }
-
 li::before {
   content: '\2022';
   position: absolute;
@@ -45,7 +48,7 @@ li::before {
   flex-wrap: wrap;
 }
 
-.chips>* {
+.chips > * {
   font-size: 0.8em;
   white-space: nowrap;
   background-color: #d8e9f3;
@@ -58,14 +61,15 @@ li::before {
   cursor: default;
 }
 
-.chips>*::before {
+.chips > *::before {
   content: none;
 }
 
 footer {
   background-color: #d8e9f3;
-  box-shadow: 0 50vh 0 50vh #d8e9f3;
   margin-top: 100px;
   padding: 20px 0 0;
   text-align: right;
+  /* Extends background to bottom of page */
+  box-shadow: 0 50vh 0 50vh #d8e9f3;
 }
