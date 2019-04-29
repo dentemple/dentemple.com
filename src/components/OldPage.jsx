@@ -12,29 +12,41 @@ const OldPage = () => (
         </strong>
       </p>
       <p>
-        My specialty is with building scalable React and NodeJS apps. I'm noted
-        for publishing open-source GraphQL libraries to <code>npm</code>,
-        writing Python and SQL automation scripts for a mid-sized call center,
-        and deploying UI components to 980+ automotive industry websites.
+        I specialize in building scalable, production-level applications with
+        Javascript. I've given several public talks on React and modern web
+        practices, and made several open-source contributions to GraphQL
+        libraries on <code>npm</code>.
       </p>
       <section>
         <h2>Public Talks</h2>
         <hr />
         <article>
           <p>
-            <strong>Build with Code - New York</strong> <br />
+            <strong>The Speaker Series</strong> - New York, NY <br />
+            <em>"Build a Node.js App w/ GraphQL"</em> (June 2019 - Upcoming)
+          </p>
+        </article>
+        <article>
+          <p>
+            <strong>Verizon HQ</strong> - Basking Ridge, NJ <br />
+            <em>"Learn React - 3 Day Workshop"</em> (2018)
+          </p>
+        </article>
+        <article>
+          <p>
+            <strong>Build with Code</strong> - New York, NY <br />
             <em>"No Time to REST: Transitioning an API to GraphQL"</em> (2018)
           </p>
         </article>
         <article>
           <p>
-            <strong>NEPA Tech</strong> <br />
-            <em>"Build Your Next App in React"</em> (2017)
+            <strong>NEPA Tech</strong> - Scranton, PA <br />
+            <em>"Build Your Next App in React"</em> | 2017
           </p>
         </article>
       </section>
     </header>
-    <main>
+    <div>
       <section>
         <h2>Skills</h2>
         <hr />
@@ -43,16 +55,16 @@ const OldPage = () => (
             <strong>Strong</strong>
           </h3>
           <ul className="chips">
-            <li>Javascript</li>
-            <li>React</li>
-            <li>Redux</li>
+            <li>Javascript ES6+</li>
+            <li>React/Redux</li>
             <li>Node.js</li>
-            <li>Express</li>
-            <li>PostgreSQL</li>
-            <li>VBA</li>
+            <li>Express.js</li>
+            <li>Git</li>
+            <li>GraphQL/Apollo</li>
             <li>HTML/CSS</li>
-            <li>Flexbox</li>
-            <li>Jest</li>
+            <li>Jest/Mocha</li>
+            <li>Atomic Design</li>
+            <li>VBA</li>
           </ul>
         </article>
         <article>
@@ -60,15 +72,14 @@ const OldPage = () => (
             <strong>Experienced</strong>
           </h3>
           <ul className="chips">
-            <li>GraphQL</li>
-            <li>Webpack</li>
-            <li>Babel</li>
-            <li>BCrypt</li>
+            <li>Typescript</li>
+            <li>Python/Django</li>
+            <li>SASS/PostCSS</li>
+            <li>Progressive Web Apps</li>
+            <li>Webpack/Babel</li>
             <li>NoSQL</li>
-            <li>Mocha</li>
+            <li>PostgreSQL</li>
             <li>jQuery</li>
-            <li>Python</li>
-            <li>Django</li>
             <li>Bash/Linux</li>
           </ul>
         </article>
@@ -76,7 +87,7 @@ const OldPage = () => (
       <section>
         <h2>Experience</h2>
         <hr />
-        <article>
+        {/* <article>
           <h3>
             <strong>Black Wasp Tech</strong>
             <small>
@@ -90,69 +101,114 @@ const OldPage = () => (
           </h3>
           <ul>
             <li>
-              Reduced GraphQL API response latency by building a series of
-              micro-libraries to handle calls w/o dramatically increasing bundle
-              sizes
-            </li>
-            <li>Automated GraphQL queries with custom Redux middleware</li>
-            <li>
-              Encapsulated GraphQL requests with Promise-based methods to
-              provide a developer-friendly API
-            </li>
-            <li>
-              Encapsulated GraphQL requests with Promise-based methods to
-              provide a framework-agnostic, developer-friendly API
+
             </li>
           </ul>
-        </article>
+        </article> */}
         <article>
           <h3>
-            <strong>Den Temple Engineering</strong> |
-            <em>Full Stack Engineer</em>
+            <strong>InRhythm Consulting Firm</strong>{' '}
+            <small>
+              (<a href="https://www.inrhythm.com/">Website</a>)
+            </small>{' '}
+            @ <strong>Goldman Sachs</strong> | <em>Software Engineer</em>
           </h3>
           <ul>
             <li>
-              Bootstrapped a social media MVP with Node.js, React, and GraphQL
-              for a UK-based organization
+              Built MobX methods for a React-based commodities trading app
             </li>
             <li>
-              Developed React-Redux components for a US-based political agency
+              Built Typescript interfaces to statically validate React
+              components for endpoints in a mono-repo
             </li>
             <li>
-              Resolved React scalability issues for a Washington-based
-              health-care agency
+              Utilized PostCSS to modularize UI design for a universal
+              React/OpenFin application{' '}
             </li>
             <li>
-              Utilized Foundation to generate CSS designs for several clients on
-              the Shopify platform
+              Implemented React Router for a responsive IPO investment app
             </li>
           </ul>
         </article>
         <article>
           <h3>
-            <strong>Net Driven</strong>
-            <small>
-              (<a href="https://www.netdriven.com/">Website</a>)
-            </small>{' '}
-            |<em>Front End Engineer</em>
+            <strong>Den Temple Engineering</strong> |{' '}
+            <em>Full Stack Engineer, Freelance</em>
           </h3>
+          <ul>
+            <li>
+              Built a Node.js server with GraphQL endpoints for a startup's
+              social media app
+            </li>
+            <li>
+              Implemented Redux for a React mobile app to encapsulate data
+              fetched via asynchronous API calls
+            </li>
+            <li>
+              Implemented React Router to streamline user interaction for a U.S.
+              healthcare agency
+            </li>
+            <li>
+              Utilized CSS Foundation/Zurb to improve Shopify clients' digital
+              engagement with pixel-perfect email designs
+            </li>
+          </ul>
         </article>
         <article>
           <h3>
-            <strong>Penn Foster</strong>
+            <strong>Net Driven</strong>{' '}
+            <small>
+              (<a href="https://www.netdriven.com/">Website</a>)
+            </small>{' '}
+            |<em>Front End Developer, Case Management</em>
+          </h3>
+          <ul>
+            <li>
+              Contributed HTML/CSS and jQuery components to 1,100+ live websites{' '}
+            </li>
+            <li>
+              Optimized CSS on legacy webpages by converting image-based designs
+              to Flexbox & SVB declarations{' '}
+            </li>
+            <li>
+              Prototyped a React-based component library for future platform
+              migration
+            </li>
+          </ul>
+        </article>
+        <article>
+          <h3>
+            <strong>Penn Foster</strong>{' '}
             <small>
               (<a href="https://www.pennfoster.edu">Website</a>)
             </small>{' '}
-            |<em>Analyst Programmer</em>
+            | <em>Data Engineer, Strategy & Analytics</em>
           </h3>
+          <ul>
+            <li>
+              Built a CMS in Django to refactor existing SQL Server and OracleDB
+              calls made by existing VBA scripts
+            </li>
+            <li>
+              Wrote Python scripts to feed student PostgreSQL data via cURL
+              commands to a Machine Learning API
+            </li>
+            <li>
+              Wrote VBA automation scripts to feed student SQL Server data to
+              AS400 client-interfaces
+            </li>
+            <li>
+              Built a Javascript and CSS Bootstrap data calculator for phone
+              agents on an existing VB.NET platform{' '}
+            </li>
+          </ul>
         </article>
       </section>
       <section>
         <h2>Education</h2>
         <hr />
         <p>
-          <strong>Codesmith</strong> |
-          <em>Open Source Residency for Experienced Programmers</em>
+          <strong>Codesmith</strong> | <em>Open Source Software Residency</em>
         </p>
         <p>
           <strong>University of Scranton</strong>
@@ -163,8 +219,8 @@ const OldPage = () => (
         <hr />
         <p>I'm also a published poet and a 10-year NaNoWriMo participant.</p>
         <p>
-          I also drink Turkish Coffee, watch seasonally-airing anime, and enjoy
-          building my own games.
+          I prefer Turkish Coffee, watch seasonally-airing anime, and watching
+          disaster videos on Youtube.
         </p>
       </section>
       <section>
@@ -201,14 +257,14 @@ const OldPage = () => (
           </li>
         </ul>
       </section>
-    </main>
+    </div>
     <footer>
       <small>
         <p>
           <strong>© 2018 Denny S. Temple</strong>
         </p>
         <p>
-          This website is open sourced under the
+          This website is open sourced under the{' '}
           <a href="https://opensource.org/licenses/MIT">MIT License</a>.
         </p>
         <p>
