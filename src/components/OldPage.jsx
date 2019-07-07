@@ -22,8 +22,13 @@ const OldPage = () => (
         <hr />
         <article>
           <p>
-            <strong>The Speaker Series</strong> - New York, NY <br />
-            <em>"Build a Node.js App w/ GraphQL"</em> (June 2019 - Upcoming)
+            <a
+              href="https://www.meetup.com/InRhythmU/events/260120621/"
+              rel="noopener noreferrer">
+              <strong>The Speaker Series</strong> - New York, NY
+            </a>{' '}
+            <br />
+            <em>"Build a Node.js App w/ GraphQL"</em> (June 2019)
           </p>
         </article>
         <article>
@@ -41,7 +46,7 @@ const OldPage = () => (
         <article>
           <p>
             <strong>NEPA Tech</strong> - Scranton, PA <br />
-            <em>"Build Your Next App in React"</em> | 2017
+            <em>"Build Your Next App in React"</em> (2017)
           </p>
         </article>
       </section>
@@ -56,15 +61,15 @@ const OldPage = () => (
           </h3>
           <ul className="chips">
             <li>Javascript ES6+</li>
-            <li>React/Redux</li>
+            <li>React</li>
+            <li>Redux/MobX</li>
             <li>Node.js</li>
-            <li>Express.js</li>
-            <li>Git</li>
-            <li>GraphQL/Apollo</li>
-            <li>HTML/CSS</li>
-            <li>Jest/Mocha</li>
+            <li>Express</li>
+            <li>NoSQL</li>
+            <li>Webpack</li>
+            <li>HTML5</li>
+            <li>CSS/Flexbox</li>
             <li>Atomic Design</li>
-            <li>VBA</li>
           </ul>
         </article>
         <article>
@@ -73,60 +78,61 @@ const OldPage = () => (
           </h3>
           <ul className="chips">
             <li>Typescript</li>
-            <li>Python/Django</li>
-            <li>SASS/PostCSS</li>
-            <li>Progressive Web Apps</li>
-            <li>Webpack/Babel</li>
-            <li>NoSQL</li>
+            <li>Python</li>
+            <li>Django</li>
+            <li>VB/VBA</li>
+            <li>GraphQL</li>
             <li>PostgreSQL</li>
             <li>jQuery</li>
-            <li>Bash/Linux</li>
+            <li>Linux/Bash</li>
+            <li>Git/Github</li>
+            <li>CI/CD</li>
           </ul>
         </article>
       </section>
       <section>
         <h2>Experience</h2>
         <hr />
-        {/* <article>
-          <h3>
-            <strong>Black Wasp Tech</strong>
-            <small>
-              (
-              <a href="https://www.linkedin.com/company/black-wasp-tech/">
-                Website
-              </a>
-              )
-            </small>
-            | <em>Software Engineer</em>
-          </h3>
-          <ul>
-            <li>
-
-            </li>
-          </ul>
-        </article> */}
         <article>
           <h3>
-            <strong>InRhythm Consulting Firm</strong>{' '}
-            <small>
-              (<a href="https://www.inrhythm.com/">Website</a>)
-            </small>{' '}
-            @ <strong>Goldman Sachs</strong> | <em>Software Engineer</em>
+            <a href="https://getbento.com/">
+              <strong>BentoBox</strong>
+            </a>{' '}
+            | <em>Senior Software Engineer</em>
+          </h3>
+        </article>
+        <br />
+
+        <article>
+          <h3>
+            <a href="https://www.inrhythm.com/">
+              <strong>InRhythm Consulting Firm</strong>
+            </a>{' '}
+            @ <strong>Goldman Sachs</strong> | <em>Senior Software Engineer</em>
           </h3>
           <ul>
             <li>
-              Built MobX methods for a React-based commodities trading app
+              Wrote Typescript interfaces to statically validate state and props
+              for React components during a major build-tool upgrade, validating
+              library components and eliminating runtime errors for a
+              consumer-facing commodities-trading application
             </li>
             <li>
-              Built Typescript interfaces to statically validate React
-              components for endpoints in a mono-repo
+              Wrote MobX methods using Javascript’s decorator and class feature
+              to handle real-time stock trading quotes, utilizing a reactive OOP
+              approach for updating the UI based on live socket connection data
             </li>
             <li>
-              Utilized PostCSS to modularize UI design for a universal
-              React/OpenFin application{' '}
+              Built Node.js modules using Mocha and Supertest as part of an
+              internal initiative to train Java engineers on full-stack
+              Javascript, using TDD methods to validate answers built around a
+              series of lessons on core backend principles
             </li>
             <li>
-              Implemented React Router for a responsive IPO investment app
+              Implemented React Router by building protected routes and
+              rendering UI based on match and location data, utilizing the
+              library’s declarative syntax to eliminate technical debt leftover
+              from prior attempts to imperatively control the History API
             </li>
           </ul>
         </article>
@@ -137,69 +143,64 @@ const OldPage = () => (
           </h3>
           <ul>
             <li>
-              Built a Node.js server with GraphQL endpoints for a startup's
-              social media app
+              Built a Node.js server with GraphQL endpoints to eliminate
+              unnecessary API requests for a UK-based social media app
             </li>
             <li>
-              Implemented Redux for a React mobile app to encapsulate data
-              fetched via asynchronous API calls
+              Implemented Redux to a mobile-first React app using async thunks
+              and smart containers for a U.S. political organization
             </li>
             <li>
-              Implemented React Router to streamline user interaction for a U.S.
-              healthcare agency
-            </li>
-            <li>
-              Utilized CSS Foundation/Zurb to improve Shopify clients' digital
-              engagement with pixel-perfect email designs
+              Utilized the Foundation/Zurb CSS framework to build responsive
+              email designs for a Shopify-based apparel agency
             </li>
           </ul>
         </article>
         <article>
           <h3>
-            <strong>Net Driven</strong>{' '}
-            <small>
-              (<a href="https://www.netdriven.com/">Website</a>)
-            </small>{' '}
-            |<em>Front End Developer, Case Management</em>
+            <a href="https://www.netdriven.com/">
+              <strong>Net Driven</strong>
+            </a>{' '}
+            | <em>Front End Developer, Case Management</em>
           </h3>
           <ul>
             <li>
-              Contributed HTML/CSS and jQuery components to 1,100+ live websites{' '}
+              Contributed HTML/CSS/JS components to 1,100+ live websites based
+              on Photoshop design boards and client requests
             </li>
             <li>
-              Optimized CSS on legacy webpages by converting image-based designs
-              to Flexbox & SVB declarations{' '}
+              Converted images to CSS declarations on legacy webpages to
+              optimize page load speed and improve web accessibility
             </li>
             <li>
-              Prototyped a React-based component library for future platform
-              migration
+              Built a React component library to prototype DotNetNuke templates
+              migrated to a more modern Atomic Design approach
             </li>
           </ul>
         </article>
         <article>
           <h3>
-            <strong>Penn Foster</strong>{' '}
-            <small>
-              (<a href="https://www.pennfoster.edu">Website</a>)
-            </small>{' '}
+            <a href="https://www.pennfoster.edu">
+              <strong>Penn Foster</strong>
+            </a>{' '}
             | <em>Data Engineer, Strategy & Analytics</em>
           </h3>
           <ul>
             <li>
-              Built a CMS in Django to refactor existing SQL Server and OracleDB
-              calls made by existing VBA scripts
+              Built a CMS in Django to refactor existing SQL Server/OracleDB
+              scripts into a single C-Suite app for predictive analytics
             </li>
             <li>
-              Wrote Python scripts to feed student PostgreSQL data via cURL
-              commands to a Machine Learning API
+              Wrote Python scripts to feed PostgreSQL data first to Excel for
+              cleaning, then to a Machine Learning API for processing
             </li>
             <li>
-              Wrote VBA automation scripts to feed student SQL Server data to
-              AS400 client-interfaces
+              Built VBA scripts using OOP patterns to automate I/O between Excel
+              userforms and IBM AS/400 client interfaces
             </li>
             <li>
-              Built a Javascript and CSS Bootstrap data calculator for phone
-              agents on an existing VB.NET platform{' '}
+              Utilized Javascript and CSS Bootstrap to build a UI that handles
+              domain-specific calculations for live call-center agents
             </li>
           </ul>
         </article>
@@ -274,8 +275,7 @@ const OldPage = () => (
         <p>
           <a
             href="https://github.com/dentemple/dentemple.com"
-            title="View the source code on Github"
-          >
+            title="View the source code on Github">
             The source code can be viewed here
           </a>
           .
