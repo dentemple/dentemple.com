@@ -17,6 +17,12 @@ const OldPage = () => (
         practices, and made several open-source contributions to GraphQL
         libraries on <code>npm</code>.
       </p>
+      <a href="https://www.fsf.org/" rel="noopener noreferrer">
+        <img
+          alt="Member of the Free Software Foundation since July 2019"
+          src="https://static.fsf.org/nosvn/associate/crm/3057115.png"
+        />
+      </a>
       <section>
         <h2>Public Talks</h2>
         <hr />
