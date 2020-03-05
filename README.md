@@ -1,3 +1,3 @@
 # dentemple.com
 
-> Denny Temple | Software Engineer in New York, NY
+> Denny S. Temple | Software Engineer in Brooklyn, NY

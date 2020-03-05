@@ -1,12 +1,12 @@
-import React from 'react'
-// import { Link } from 'gatsby'
+import React from "react"
 
-import Layout from '../components/Layout'
-import OldPage from '../components/OldPage'
+import Layout from "../components/layout"
+import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
-    <OldPage />
+    <SEO title="Home" />
+    <></>
   </Layout>
 )
 
