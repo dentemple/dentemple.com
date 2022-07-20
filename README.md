@@ -1,12 +1,14 @@
-<h1 align="center">
-  dentemple.com
-</h1>
+<center>
 
-> Bootstrapped by the Gatsby TypeScript starter
+![Alt text](src/images/banner.jpg?raw=true "Denny S. Temple - Senior Software Engineer")
+
+# **https://dentemple.com**
+
+</center>
 
 ## 🚀 Contribute
 
-> Some knowledge of Javascript, React, and npm required.
+> Bootstrapped by the Gatsby TypeScript starter
 
 1.  **Clone the repository**
 
