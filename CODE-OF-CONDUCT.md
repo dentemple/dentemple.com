@@ -12,3 +12,7 @@
 By participating in this project, I pledge to follow the practices listed above, and to continue to support an environment of openness, wisdom, and kindness in everything that I do.
 
 Contributions that violate these principles may be removed.
+
+---
+
+[Return to README](README.md)
