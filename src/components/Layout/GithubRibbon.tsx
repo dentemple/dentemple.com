@@ -1,5 +1,5 @@
 import React from 'react'
-import 'github-fork-ribbon-css/gh-fork-ribbon.css'
+import { ExternalLink } from '../common'
 
 export interface GithubRibbonProps {
   url: string
@@ -7,13 +7,13 @@ export interface GithubRibbonProps {
 
 export default function GithubRibbon({ url }: GithubRibbonProps) {
   return (
-    <a
+    <ExternalLink
       className="github-fork-ribbon"
       href={url}
       data-ribbon="View me on GitHub"
       title="View me on GitHub"
     >
       View me on GitHub
-    </a>
+    </ExternalLink>
   )
 }
