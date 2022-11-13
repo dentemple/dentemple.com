@@ -1,58 +1,41 @@
-<center>
+# Website
 
-![Alt text](src/images/banner.jpg?raw=true "Denny S. Temple - Senior Software Engineer")
+This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-# **https://dentemple.com**
+### Installation
 
-</center>
+```
+$ yarn
+```
 
-## 🚀 Contribute
+### Local Development
 
-> Bootstrapped by the Gatsby TypeScript starter
+```
+$ yarn start
+```
 
-1.  **Clone the repository**
+This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-    ```shell
-    # Copy the code-base to your local machine using either ssh or https
-    # ssh
-    git clone git@github.com:dentemple/dentemple.com.git
-    # https
-    git clone https://github.com/dentemple/dentemple.com.git
-    ```
+### Build
 
-2.  **Start developing.**
+```
+$ yarn build
+```
 
-    Navigate into the new directory and start it up.
+This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
-    ```shell
-    cd dentemple.com/
-    npm run develop
-    ```
+### Deployment
 
-3.  **Open the code and start customizing**
+Using SSH:
 
-    The site is now running at http://localhost:8000!
+```
+$ USE_SSH=true yarn deploy
+```
 
-4.  **Learn more about Gatsby**
+Not using SSH:
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-## 🚀 Code of Conduct
-
-[View the Code of Conduct](CODE-OF-CONDUCT.md)
-
----
-
-## 🚀 LICENSE
-
-[MIT](LICENSE)
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.

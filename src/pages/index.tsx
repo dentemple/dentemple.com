@@ -1,50 +1,41 @@
-import React from 'react'
-import { graphql, PageProps } from 'gatsby'
+import React from 'react';
+import clsx from 'clsx';
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import Layout from '@theme/Layout';
+import HomepageFeatures from '@site/src/components/HomepageFeatures';
 
-import { Layout } from '../components'
-import { InlineList, Text } from '../components/common'
+import styles from './index.module.css';
 
-interface DataProps {
-  site: {
-    siteMetadata: {
-      frontendSkills: Array<string>
-      backendSkills: Array<string>
-      gamedevSkills: Array<string>
-    }
-  }
+function HomepageHeader() {
+  const {siteConfig} = useDocusaurusContext();
+  return (
+    <header className={clsx('hero hero--primary', styles.heroBanner)}>
+      <div className="container">
+        <h1 className="hero__title">{siteConfig.title}</h1>
+        <p className="hero__subtitle">{siteConfig.tagline}</p>
+        <div className={styles.buttons}>
+          <Link
+            className="button button--secondary button--lg"
+            to="/docs/intro">
+            Docusaurus Tutorial - 5min ⏱️
+          </Link>
+        </div>
+      </div>
+    </header>
+  );
 }
 
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        frontendSkills
-        backendSkills
-        gamedevSkills
-      }
-    }
-  }
-`
-
-export default function IndexPage({ data }: PageProps<DataProps>) {
-  const { frontendSkills, backendSkills, gamedevSkills } = data.site.siteMetadata
-
-  const mapSkill = (skill: string, i: number, arr: Array<string>) => {
-    const separator = i < arr.length - 1 ? ', ' : ''
-    return <li key={skill}>{`${skill}${separator}`}</li>
-  }
-
+export default function Home(): JSX.Element {
+  const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout>
-      <title>Home Page</title>
-      <Text as="h2" style={{ marginTop: 2 }}>
-        Frontend
-      </Text>
-      <InlineList>{frontendSkills.map(mapSkill)}</InlineList>
-      <Text as="h2">Backend</Text>
-      <InlineList>{backendSkills.map(mapSkill)}</InlineList>
-      <Text as="h2">Game Dev</Text>
-      <InlineList>{gamedevSkills.map(mapSkill)}</InlineList>
+    <Layout
+      title={`Hello from ${siteConfig.title}`}
+      description="Description will go into a meta tag in <head />">
+      <HomepageHeader />
+      <main>
+        <HomepageFeatures />
+      </main>
     </Layout>
-  )
+  );
 }
