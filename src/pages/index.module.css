@@ -21,3 +21,14 @@
   align-items: center;
   justify-content: center;
 }
+
+.buttonsRow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.buttonsRow > * {
+  margin: 0 0.5rem;
+}
