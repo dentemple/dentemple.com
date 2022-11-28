@@ -4,6 +4,11 @@
       "name": "javascript",
       "label": "Javascript",
       "url": "https://www.javascript.com/"
+    },
+    {
+      "name": "typescript",
+      "label": "Typescript",
+      "url": "https://www.typescript.com"
     }
   ]
 }
