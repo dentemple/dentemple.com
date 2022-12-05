@@ -1,70 +1,76 @@
-import React from 'react';
-import clsx from 'clsx';
-import styles from './styles.module.css';
+import React from 'react'
+import clsx from 'clsx'
+import styles from './styles.module.css'
+
+import IconSde from '@site/static/img/icon_sde.png'
+import IconTech from '@site/static/img/icon_tech.png'
+import IconHire from '@site/static/img/icon_hire.png'
 
 type FeatureItem = {
-  title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
-  description: JSX.Element;
-};
+  title: string
+  img: string
+  description: JSX.Element
+}
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
+    title: 'Software Development Engineer (SDE)',
+    img: IconSde,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        An experienced SDE with a passion for building and maintaining software.{' '}
+        <em>Fast, safe,</em> and <em>reliable code</em> is a primary goal.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
+    title: 'Cutting Edge Technology',
+    img: IconTech,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Specialized in the latest technologies used by top companies, including <em>AWS</em>,{' '}
+        <em>React</em>, and
+        <em>TypeScript</em>.
       </>
     ),
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    title: 'Available for Hire (USA)',
+    img: IconHire,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        <em>Full-time</em> or <em>Contract</em> roles, with <em>Webcam On</em> availability within
+        the Eastern US Timezone. Contact through{' '}
+        <a href='https://www.linkedin.com/in/dentemple'>LinkedIn</a> today.{' '}
       </>
     ),
   },
-];
+]
 
-function Feature({title, Svg, description}: FeatureItem) {
+function Feature({ title, img, description }: FeatureItem) {
   return (
     <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
+      <div className='text--center padding-spacer--bottom'>
+        <img className={styles.featureImg} src={img} />
       </div>
-      <div className="text--center padding-horiz--md">
+      <div className='text--center padding-horiz--md'>
         <h3>{title}</h3>
         <p>{description}</p>
       </div>
     </div>
-  );
+  )
 }
 
 export default function HomepageFeatures(): JSX.Element {
   return (
     <section className={styles.features}>
-      <div className="container">
-        <div className="row">
+      <div className='container'>
+        <div className='row'>
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}
         </div>
       </div>
     </section>
-  );
+  )
 }

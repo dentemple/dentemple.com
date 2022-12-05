@@ -42,42 +42,24 @@ const footer = {
   style: 'dark',
   links: [
     {
-      title: 'Docs',
-      items: [
-        {
-          label: 'My Resume',
-          to: '/docs/resume/intro',
-        },
-      ],
+      label: 'Github',
+      href: 'https://github.com/dentemple',
     },
     {
-      title: 'Social Links',
-      items: [
-        {
-          label: 'Github',
-          href: 'https://github.com/dentemple',
-        },
-        {
-          label: 'LinkedIn',
-          href: 'https://www.linkedin.com/in/dentemple',
-        },
-        {
-          label: 'Twitter',
-          href: 'https://twitter.com/dentemple',
-        },
-      ],
+      label: 'LinkedIn',
+      href: 'https://www.linkedin.com/in/dentemple',
     },
     {
-      title: 'More',
-      items: [
-        {
-          label: 'Github Repo',
-          href: 'https://github.com/dentemple/dentemple.com',
-        },
-      ],
+      label: 'Twitter',
+      href: 'https://twitter.com/dentemple',
+    },
+    {
+      html: `
+      <a href="https://www.flaticon.com/free-icons/innovation" style="color: var(--ifm-color-primary-lightest)" title="flaticon icons">Flaticon icons created by juicy_fish</a>
+      `,
     },
   ],
-  copyright: `Copyright © ${new Date().getFullYear()} Profile Website`,
+  copyright: `Copyright © ${new Date().getFullYear()} Denny S. Temple`,
 }
 
 /** @type {import('@docusaurus/types').Config} */
