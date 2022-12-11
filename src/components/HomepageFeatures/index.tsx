@@ -18,8 +18,8 @@ const FeatureList: FeatureItem[] = [
     img: IconSde,
     description: (
       <>
-        An experienced SDE with a passion for building and maintaining software.{' '}
-        <em>Fast, safe,</em> and <em>reliable code</em> is a primary goal.
+        An experienced SDE with a passion for building and maintaining software. Fast, safe, and
+        reliable code is a primary goal.
       </>
     ),
   },
@@ -28,9 +28,8 @@ const FeatureList: FeatureItem[] = [
     img: IconTech,
     description: (
       <>
-        Specialized in the latest technologies used by top companies, including <em>AWS</em>,{' '}
-        <em>React</em>, and
-        <em>TypeScript</em>.
+        Specialized in the latest technologies used by top companies, including AWS, React, and
+        Typescript.
       </>
     ),
   },
@@ -39,9 +38,9 @@ const FeatureList: FeatureItem[] = [
     img: IconHire,
     description: (
       <>
-        <em>Full-time</em> or <em>Contract</em> roles, with <em>Webcam On</em> availability within
-        the Eastern US Timezone. Contact through{' '}
-        <a href='https://www.linkedin.com/in/dentemple'>LinkedIn</a> today.{' '}
+        Full-time or Contract roles, with <em>Webcam On</em> availability within the Eastern US
+        Timezone. Contact through <a href='https://www.linkedin.com/in/dentemple'>LinkedIn</a>{' '}
+        today.{' '}
       </>
     ),
   },

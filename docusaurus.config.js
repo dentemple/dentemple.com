@@ -26,7 +26,7 @@ const navbar = {
   items: [
     {
       type: 'doc',
-      docId: 'resume/intro',
+      docId: 'resume/overview',
       position: 'left',
       label: 'My Resume',
     },
