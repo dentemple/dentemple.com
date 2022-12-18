@@ -5,7 +5,8 @@
   "private": true,
   "license": "MIT",
   "workspaces": [
-    "profile-docs"
+    "profile-docs",
+    "saas-client"
   ],
   "scripts": {
     "start": "npm start --workspaces",

@@ -1,0 +1,7 @@
+{
+  "app.title": "React App",
+  "home.title": "Home",
+  "home.heading1": "Welcome to React",
+  "home.text": "Edit <code>src/App.tsx</code> and save to reload.",
+  "home.link": "Learn React"
+}
