@@ -4,9 +4,12 @@
   "description": "",
   "private": true,
   "license": "MIT",
+  "workspaces": [
+    "profile-docs"
+  ],
   "scripts": {
-    "start": "npm run start:profile",
-    "start:profile": "cd profile-docs && npm start",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm start --workspaces",
+    "start:profile": "npm start --workspace=profile-docs",
+    "test": "npm run test --workspaces"
   }
 }
