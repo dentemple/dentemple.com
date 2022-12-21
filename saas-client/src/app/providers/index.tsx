@@ -2,7 +2,7 @@ import { HelmetProvider } from 'react-helmet-async'
 import { IntlProvider } from 'react-intl'
 import { ThemeProvider } from 'styled-components'
 
-import themes from 'src/app/themes'
+import themes, { Theme } from 'src/app/themes'
 import { intlProps } from 'src/i18n'
 
 export interface ProvidersProps {
@@ -10,9 +10,11 @@ export interface ProvidersProps {
 }
 
 export function Providers({ children }: ProvidersProps) {
+  const selectedTheme = themes.dark as Theme
+
   return (
     <IntlProvider {...intlProps}>
-      <ThemeProvider theme={themes}>
+      <ThemeProvider theme={selectedTheme}>
         <HelmetProvider>{children}</HelmetProvider>
       </ThemeProvider>
     </IntlProvider>

@@ -1,7 +1,7 @@
 import { useRouteError } from 'react-router-dom'
 
 import { Page, Text } from 'src/components'
-import { RouteError } from 'src/types'
+import { RouteError } from 'src/@types'
 
 export function ErrorPage() {
   const error = useRouteError() as unknown as RouteError

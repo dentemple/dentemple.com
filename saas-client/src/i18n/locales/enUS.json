@@ -1,7 +1,8 @@
 {
   "app.title": "React App",
   "home.title": "Home",
-  "home.heading1": "Welcome to React",
-  "home.text": "Edit <code>src/App.tsx</code> and save to reload.",
-  "home.link": "Learn React"
+  "home.header.legend": "Your Website Here",
+  "home.header.heading1": "Software <small>as a</small> Service",
+  "home.header.text": "Because a great business needs great technology.",
+  "features.heroHeader.altText": "A woman with an analog camera is walking near the ocean."
 }

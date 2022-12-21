@@ -1,19 +1,47 @@
 import 'normalize.css'
 import { createGlobalStyle } from 'styled-components'
 
+import WebFont from 'webfontloader'
+
+WebFont.load({
+  google: {
+    families: ['Nanum Myeongjo'],
+  },
+})
+
 export const GlobalStyle = createGlobalStyle`
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+html {
+  box-sizing: border-box;
+  min-width: 320px;
+  background-color: ${({ theme }) => theme.colors.primary};
+  font-size: 18px;
 }
 
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: ${({ theme }) => theme.fonts.primary};
+  color: ${({ theme }) => theme.colors.onPrimary};
+  line-height: 1.4;
+}
+
+body, #root {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: ${({ theme }) => theme.fonts.secondary};
+}
+
+
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: ${({ theme }) => theme.fonts.monospace};
 }
 `
 

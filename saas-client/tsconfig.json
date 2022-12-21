@@ -23,6 +23,10 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es5",
+    "typeRoots": [
+      "node_modules/@types",
+      "src/@types"
+    ]
   },
   "include": [
     "src"

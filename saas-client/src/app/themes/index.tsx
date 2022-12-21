@@ -1,9 +1,11 @@
-import main from 'src/app/themes/main'
+import dark from 'src/app/themes/dark'
 
-export { main } from 'src/app/themes/main'
+export { dark }
+
+export type Theme = typeof dark
 
 export const themes = {
-  main,
+  dark,
 }
 
 export default themes

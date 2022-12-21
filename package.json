@@ -5,8 +5,11 @@
   "private": true,
   "license": "MIT",
   "scripts": {
+    "start": "concurrently \"npm run start:profile\" \"npm run start:saas:client\" --kill-others-on-fail",
     "start:profile": "cd profile-docs && npm start",
-    "start:saas:client": "cd saas-client && npm start",
-    "test": "npm run test --workspaces"
+    "start:saas:client": "cd saas-client && npm start"
+  },
+  "devDependencies": {
+    "concurrently": "^7.6.0"
   }
 }

@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-import { BaseStyledComponent } from 'src/types'
+import { BaseStyledComponent } from 'src/@types'
 
 export interface ExternalLinkProps extends BaseStyledComponent {}
 

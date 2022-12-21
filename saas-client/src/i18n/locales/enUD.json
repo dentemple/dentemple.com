@@ -1,7 +1,8 @@
 {
   "app.title": "ɹǝɐɔʇ ∀dd",
   "home.title": "Hoɯǝ",
-  "home.heading1": "Mǝlɔoɯǝ ʇo ɹǝɐɔʇ",
-  "home.text": "Ǝpᴉʇ <code>src/App.tsx</code> ɐup sɐʌǝ ʇo ɹǝloɐp.",
-  "home.link": "˥ǝɐɹu ɹǝɐɔʇ"
+  "home.header.legend": "⅄onɹ Mǝqsᴉʇǝ Hǝɹǝ",
+  "home.header.heading1": "Soɟʇʍɐɹǝ <small>ɐs ɐ</small> Sǝɹʌᴉɔǝ",
+  "home.header.text": "qǝɔɐnsǝ ɐ ƃɹǝɐʇ qnsᴉuǝss uǝǝps ƃɹǝɐʇ ʇǝɔɥuoloƃʎ˙",
+  "features.heroHeader.altText": "∀ ʍoɯɐu ʍᴉʇɥ ɐu ɐuɐloƃ ɔɐɯǝɹɐ ᴉs ʍɐlʞᴉuƃ uǝɐɹ ʇɥǝ oɔǝɐu˙"
 }
