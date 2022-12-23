@@ -14,19 +14,19 @@ export function Header() {
           <Fieldset>
             <Legend>
               &nbsp;
-              <FormattedMessage id='home.header.legend' />
+              <FormattedMessage id='pages.home.header.legend' />
               &nbsp;
             </Legend>
             <Heading1>
               <FormattedMessage
-                id='home.header.heading1'
+                id='pages.home.header.heading1'
                 values={{
                   small: formatSmallText,
                 }}
               />
             </Heading1>
             <HeadingText>
-              <FormattedMessage id='home.header.text' />
+              <FormattedMessage id='pages.home.header.text' />
             </HeadingText>
           </Fieldset>
         </Card>

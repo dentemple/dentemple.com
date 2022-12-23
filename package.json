@@ -1,11 +1,12 @@
 {
-  "name": "dentemple.com",
+  "name": "dentemple",
   "version": "1.0.0",
   "description": "",
   "private": true,
   "license": "MIT",
   "scripts": {
-    "start": "concurrently \"npm run start:profile\" \"npm run start:saas:client\" --kill-others-on-fail",
+    "start": "concurrently \"npm run start:server\" \"npm run start:profile\" \"npm run start:saas:client\" --kill-others-on-fail",
+    "start:server": "cd server && npm start",
     "start:profile": "cd profile-docs && npm start",
     "start:saas:client": "cd saas-client && npm start"
   },

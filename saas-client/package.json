@@ -1,7 +1,9 @@
 {
-  "name": "dens-boilerplate",
+  "name": "dentemple-saas-client",
   "version": "1.0.0",
+  "description": "",
   "private": true,
+  "license": "MIT",
   "scripts": {
     "--- APP ---": "",
     "start": "react-scripts start",

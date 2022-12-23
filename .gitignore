@@ -25,6 +25,7 @@
 # Generated files
 **/**/.docusaurus
 **/**/.cache-loader
+dist/
 
 # misc
 **/**/.DS_Store

@@ -11,7 +11,7 @@ export function Home() {
   return (
     <Page data-testid='pages/home'>
       <Helmet>
-        <title>{intl.formatMessage({ id: 'home.title' })}</title>
+        <title>{intl.formatMessage({ id: 'pages.home.title' })}</title>
       </Helmet>
       <Header />
       <Section>

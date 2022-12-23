@@ -1,8 +1,20 @@
 {
   "recommendations": [
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "DavidAnson.vscode-markdownlint",
     "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode",
     "dsznajder.es7-react-js-snippets",
+    "esbenp.prettier-vscode",
+    "GraphQL.vscode-graphql",
     "mariusalchimavicius.json-to-ts",
+    "mohd-akram.vscode-html-format",
+    "ms-azuretools.vscode-docker",
+    "p1c2u.docker-compose",
+    "ryanluker.vscode-coverage-gutters",
+    "sdras.night-owl",
+    "styled-components.vscode-styled-components",
+    "vscode-icons-team.vscode-icons",
+    "Zignd.html-css-class-completion"
   ]
 }
