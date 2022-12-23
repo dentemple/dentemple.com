@@ -1,8 +1,8 @@
 {
   "app.title": "React App",
-  "home.title": "Home",
-  "home.header.legend": "Your Website Here",
-  "home.header.heading1": "Software <small>as a</small> Service",
-  "home.header.text": "Because a great business needs great technology.",
+  "pages.home.title": "Home",
+  "pages.home.header.legend": "Your Website Here",
+  "pages.home.header.heading1": "Software <small>as a</small> Service",
+  "pages.home.header.text": "Because a great business needs great technology.",
   "features.heroHeader.altText": "A woman with an analog camera is walking near the ocean."
 }

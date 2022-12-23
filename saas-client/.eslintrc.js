@@ -3,7 +3,7 @@ module.exports = {
   plugins: ['jsx-a11y'],
   overrides: [
     {
-      files: ['**/*.ts?(x)', '**/*.stories.*'],
+      files: ['**/*.ts?(x)'],
       rules: {
         'import/no-anonymous-default-export': 'off',
         'no-void': 0,

@@ -13,7 +13,7 @@ export const GlobalStyle = createGlobalStyle`
 html {
   box-sizing: border-box;
   min-width: 320px;
-  background-color: ${({ theme }) => theme.colors.primary};
+  background-color: ${({ theme }) => theme.colors.blackLight};
   font-size: 18px;
 }
 
@@ -22,16 +22,22 @@ html {
 }
 
 body {
+  /* box */
   margin: 0;
+
+  /* typography */
   font-family: ${({ theme }) => theme.fonts.primary};
   color: ${({ theme }) => theme.colors.onPrimary};
   line-height: 1.4;
 }
 
 body, #root {
-  height: 100%;
+  /* display */
   display: flex;
   flex-direction: column;
+
+  /* box */
+  height: 100%;
   min-height: 100vh;
 }
 
