@@ -8,13 +8,13 @@ const specificColors = {
   white: '#ffffff',
   whiteDark: '#f9f9f9',
   // blue
-  blue: '#42a5f5',
-  blueLight: '#80d6ff',
-  blueDark: '#0077c2',
-  // amber
-  amber: '#ffca28',
-  amberLight: '#fffd61',
-  amberDark: '#c79a00',
+  blue: '#1976d2',
+  blueLight: '#63a4ff',
+  blueDark: '#004ba0',
+  // yellow
+  yellow: '#ffee58',
+  yellowLight: '#ffff8b',
+  yellowDark: '#c9bc1f',
 }
 
 export const colors = {
@@ -22,14 +22,14 @@ export const colors = {
   primary: specificColors.blue,
   primaryLight: specificColors.blueLight,
   primaryDark: specificColors.blueDark,
-  secondary: specificColors.amber,
-  secondaryLight: specificColors.amberLight,
-  secondaryDark: specificColors.amberDark,
+  secondary: specificColors.yellow,
+  secondaryLight: specificColors.yellowLight,
+  secondaryDark: specificColors.yellowDark,
   background: specificColors.blackLight,
   surface: specificColors.blackLight,
   error: '#B00020',
   onPrimary: specificColors.white,
-  onSecondary: specificColors.white,
+  onSecondary: specificColors.black,
   onBackground: specificColors.white,
   onSurface: specificColors.white,
   onError: specificColors.white,
@@ -37,9 +37,9 @@ export const colors = {
   linkHover: '#535bf2',
 }
 
-export const dark = {
+export const main = {
   ...common,
   colors,
 }
 
-export default dark
+export default main

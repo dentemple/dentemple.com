@@ -1,8 +1,15 @@
 import { FormattedMessage } from 'react-intl'
 
 import { HeroHeader } from 'src/features'
-import { Card } from 'src/components'
-import { Fieldset, Heading1, HeadingText, HeaderContent, Legend } from './containers'
+import { Card, FlatButton, Stack } from 'src/components'
+import {
+  Fieldset,
+  Heading1,
+  HeadingText,
+  HeaderContent,
+  HeaderContentItem,
+  Legend,
+} from './containers'
 
 import { Chunks } from 'src/@types'
 
@@ -10,7 +17,7 @@ export function Header() {
   return (
     <HeroHeader data-testid='pages/home/header'>
       <HeaderContent>
-        <Card>
+        <HeaderContentItem>
           <Fieldset>
             <Legend>
               &nbsp;
@@ -29,7 +36,15 @@ export function Header() {
               <FormattedMessage id='pages.home.header.text' />
             </HeadingText>
           </Fieldset>
-        </Card>
+        </HeaderContentItem>
+        <HeaderContentItem>
+          <FlatButton style={{ margin: '1.5em 0' }}>
+            <FormattedMessage id='pages.home.header.button.contact'></FormattedMessage>
+          </FlatButton>
+          <FlatButton secondary>
+            <FormattedMessage id='pages.home.header.button.demo' />
+          </FlatButton>
+        </HeaderContentItem>
       </HeaderContent>
     </HeroHeader>
   )

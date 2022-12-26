@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components'
 import { BaseStyledComponent } from 'src/@types'
 
-import heroImage from 'src/assets/img/hero-image.jpg'
+import heroImage from 'src/assets/images/hero-image.jpg'
 
 export type { BaseStyledComponent }
 
@@ -17,7 +17,7 @@ const HeroStyles = css`
   min-width: 100%;
   min-height: 100%;
   margin-top: ${({ theme }) => theme.sizes.navbarHeight}px;
-  z-index: 2;
+  z-index: -2;
 `
 
 export const Header = styled.header<BaseStyledComponent>`
@@ -28,7 +28,7 @@ export const Header = styled.header<BaseStyledComponent>`
 
   /* box */
   position: relative;
-  min-height: 98vh;
+  min-height: 750px;
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -53,7 +53,7 @@ export const Overlay = styled.div<BaseStyledComponent>`
   bottom: 0;
   height: 100%;
   width: 100%;
-  z-index: 4;
+  z-index: 2;
 `
 
 export const Video = styled.video<BaseStyledComponent>`

@@ -1,16 +1,15 @@
 import styled from 'styled-components'
 import { BaseStyledComponent } from 'src/@types'
 
-export interface CardProps extends BaseStyledComponent {}
+export interface SectionProps extends BaseStyledComponent {}
 
-export const Card = styled.div<CardProps>`
+export const Section = styled.section<SectionProps>`
   /* display */
   display: flex;
   flex-direction: row;
 
   /* box */
-  position: relative;
-  padding: 1rem;
+  min-height: 600px;
 `
 
-export default Card
+export default Section

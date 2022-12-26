@@ -2,14 +2,14 @@ import { render } from '@testing-library/react'
 import { HelmetProvider } from 'react-helmet-async'
 import { ThemeProvider } from 'styled-components'
 
-import { dark } from 'src/app/themes'
+import { main } from 'src/app/themes'
 
 type uiProps = React.ReactElement<any, string | React.JSXElementConstructor<any>>
 type optionsProps = any
 
 function Providers({ children }: { children: React.ReactNode }) {
   return (
-    <ThemeProvider theme={dark}>
+    <ThemeProvider theme={main}>
       <HelmetProvider>{children}</HelmetProvider>
     </ThemeProvider>
   )

@@ -1,12 +1,18 @@
 import styled from 'styled-components'
 
-import { BaseStyledComponent } from 'src/@types'
-
 import { dropDownAnimation } from 'src/assets/keyframes'
 import { breakpoints } from 'src/app/themes/common'
 
-export const Fieldset = styled.fieldset<BaseStyledComponent>`
+import { BaseStyledComponent } from 'src/@types'
+
+export const Fieldset = styled.fieldset`
+  /* display */
+  flex-direction: column;
+
+  /* box */
   margin: auto;
+  min-height: 0;
+  min-width: 0;
 `
 
 export const HeaderContent = styled.div<BaseStyledComponent>`
@@ -22,7 +28,26 @@ export const HeaderContent = styled.div<BaseStyledComponent>`
   width: 100%;
   height: 70%;
   padding-top: 2rem;
-  z-index: 4;
+
+  /* typography */
+  @media (min-width: ${breakpoints.md}px) {
+    font-size: 1.2rem;
+  }
+`
+
+export const HeaderContentItem = styled.div`
+  /* display */
+  display: flex;
+  flex-direction: column;
+
+  /* box */
+  position: relative;
+  padding: 1rem;
+  width: 100%;
+
+  @media (min-width: ${breakpoints.md}px) {
+    margin-right: calc(50% - 100px);
+  }
 `
 
 export const Heading1 = styled.h1<BaseStyledComponent>`
@@ -47,15 +72,6 @@ export const Legend = styled.legend<BaseStyledComponent>`
   animation: ${dropDownAnimation} 2s;
   animation-fill-mode: forwards;
   animation-iteration-count: 1;
-`
-
-export const Section = styled.section<BaseStyledComponent>`
-  /* display */
-  display: flex;
-  flex-direction: row;
-
-  /* box */
-  min-height: 600px;
 `
 
 export default HeaderContent

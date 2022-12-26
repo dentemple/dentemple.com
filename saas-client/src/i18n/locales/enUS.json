@@ -2,7 +2,9 @@
   "app.title": "React App",
   "pages.home.title": "Home",
   "pages.home.header.legend": "Your Website Here",
-  "pages.home.header.heading1": "Software <small>as a</small> Service",
-  "pages.home.header.text": "Because a great business needs great technology.",
+  "pages.home.header.heading1": "Software <small>as\u00a0a</small> Service",
+  "pages.home.header.text": "Because a great business needs great\u00a0technology.",
+  "pages.home.header.button.contact": "Contact Us",
+  "pages.home.header.button.demo": "View Demo Features",
   "features.heroHeader.altText": "A woman with an analog camera is walking near the ocean."
 }

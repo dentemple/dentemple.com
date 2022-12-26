@@ -1,9 +1,8 @@
 import { Helmet } from 'react-helmet-async'
 import { useIntl } from 'react-intl'
 
-import { Page } from 'src/components'
+import { Page, Section } from 'src/components'
 import { Header } from './Header'
-import { Section } from './containers'
 
 export function Home() {
   const intl = useIntl()

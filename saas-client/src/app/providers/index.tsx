@@ -10,7 +10,7 @@ export interface ProvidersProps {
 }
 
 export function Providers({ children }: ProvidersProps) {
-  const selectedTheme = themes.dark as Theme
+  const selectedTheme = themes.main as Theme
 
   return (
     <IntlProvider {...intlProps}>

@@ -29,9 +29,9 @@ export const colors = {
   linkHover: '#535bf2',
 }
 
-export const dark = {
+export const alt = {
   ...common,
   colors,
 }
 
-export default dark
+export default alt
