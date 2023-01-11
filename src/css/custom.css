@@ -1,0 +1,59 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #718792;
+  --ifm-color-primary-dark: #1c313a;
+  --ifm-color-primary-darker: #192c34;
+  --ifm-color-primary-darkest: #111d23;
+  --ifm-color-primary-light: #718792;
+  --ifm-color-primary-lighter: #b8c3c9;
+  --ifm-color-primary-lightest: #f1f3f4;
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+}
+
+/*
+COMPLEMENTARY COLORS (LIGHT)
+
+secondary: #b3703f
+secondary-dark: #804415
+secondary-light: #e89f6b
+*/
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #b0bec5;
+  --ifm-color-primary-dark: #808e95;
+  --ifm-color-primary-darker: #808e95;
+  --ifm-color-primary-darkest: #1a8870;
+  --ifm-color-primary-light: #e2f1f8;
+  --ifm-color-primary-lighter: #b8c3c9;
+  --ifm-color-primary-lightest: #f1f3f4;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
+}
+
+/*
+COMPLEMENTARY COLORS (DARK)
+
+secondary: #E5BB9C
+secondary-dark: #804415
+secondary-light: #e89f6b
+*/
+
+.linkedin {
+  background-color: #0077b5;
+  color: #fff;
+}
+
+.button.button--secondary.linkedin {
+  color: #fff;
+}
+
+.padding-spacer--bottom {
+  padding-bottom: 2rem;
+}

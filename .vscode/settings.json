@@ -1,0 +1,27 @@
+{
+  "editor.acceptSuggestionOnEnter": "off",
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  "editor.minimap.enabled": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnSave": true,
+  "[html]": {
+    "editor.formatOnSave": true
+  },
+  "html.autoClosingTags": false,
+  "html.format.endWithNewline": true,
+  "javascript.autoClosingTags": false,
+  "javascript.suggestionActions.enabled": true,
+  "javascript.updateImportsOnFileMove.enabled": "never",
+  "javascript.validate.enable": false,
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "prettier.semi": false,
+  "prettier.printWidth": 100,
+  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": true,
+  "prettier.bracketSameLine": true,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+}

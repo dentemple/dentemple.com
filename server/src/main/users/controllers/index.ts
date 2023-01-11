@@ -1,5 +1,0 @@
-export { default as createUser } from './createUser'
-export { default as deleteUser } from './deleteUser'
-export { default as editUser } from './editUser'
-export { default as getAllUsers } from './getAllUsers'
-export { default as getUser } from './getUser'

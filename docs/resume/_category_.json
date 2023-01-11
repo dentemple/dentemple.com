@@ -1,0 +1,8 @@
+{
+  "label": "My Resume",
+  "position": 0,
+  "link": {
+    "type": "generated-index",
+    "description": "View my skills and work history."
+  }
+}
