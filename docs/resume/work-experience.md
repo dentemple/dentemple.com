@@ -4,13 +4,15 @@
 
 ---
 
-> **Frontend, "Software Engineer"** | Apr 2022 - Nov 2022
+> **Software Engineer** | 2022 - Nov 2022
 
-For Betway US's Sports Betting Apps.
-
-Responsibilities included: Building components from feature requests and design boards, updating config files for Native App deployments, and testing functionality under stringent regulatory requirements.
-
-Projects worked on: A client-facing web-mobile app with Typescript/React on C#/Xamarin.
+- Developed Typescript and React Web components to implement Biometric Web Authentication for U.S. mobile app users
+- Wrote Typescript generator functions with Redux Sagas to implement new actions for Betway’s internal design system
+- Wrote Typescript, React, and CSS to implement new light mode theming as well as routes and prompts for new features
+- Wrote C# and XML to deploy additional versions of the frontend app to the mobile stores for handling new regional markets
+- Deployed new CI/CD pipelines with MS Azure to further streamline newly implemented QA and Agile/Scrum practices
+- Wrote Storybook and Jest tests to ensure 95%+ test coverage across all lines of code
+- Attended workshops on Kubernetes, AWS Messaging SQS/SNS, and Azure CI/CD as part of an employee learning series
 
 | Category | Skills |
 | --- | --- |
@@ -21,15 +23,17 @@ Projects worked on: A client-facing web-mobile app with Typescript/React on C#/X
 
 ---
 
-> **Frontend, "Software Engineer"**  | 2020 - 2021
+> **Software Engineer**  | 2020 - 2021
 
-For Ethyca’s Data Privacy Automation software.
-
-Responsibilities included: Leading Ethyca’s frontend development as their first full-time frontend hire, building or prototyping multiple apps from scratch, and building new pages and features for an existing B2B control panel.
-
-Projects built from scratch: A B2B self-signup app with Javascript/React on Java/SpringBoot, and a database dashboard app for tagging stored PII with Typescript/React on Java/SpringBoot.
-
-Other Project Contributions: A B2B control panel app on Typescript/Angular on Java/SpringBoot, and vanilla Javascript snippets for sniffing out third-party data privacy configurations.
+- Developed new Angular pages and templates with Material Design to add new features for Ethyca’s B2B dashboard
+- Wrote Java to implement new API endpoints, including Spring Boot ORM functions to interact with PostgreSQL tables
+- Wrote Java to implement new user email notification events, including HTML/CSS designs for said emails
+- Built a new Typescript and React app from scratch to dynamically generate dozens of stateful pages from served JSON
+- Wrote new user authentication and new Stripe integration components to handle registration, login, and payment flow
+- Built a new Typescript and React app from scratch to dynamically generate tables representing database schemas 
+- Wrote vanilla Javascript snippets to sniff the end-user’s data privacy settings on page load and configuring as necessary
+- Led the implementations of Cypress E2E testing, Storybook testing, and the Atomic Design component hierarchy
+- Acted as the main technical contact, spec writer, and code reviewer for an overseas engineering team
 
 | Category | Skills |
 | --- | --- |
@@ -41,13 +45,9 @@ Other Project Contributions: A B2B control panel app on Typescript/Angular on Ja
 
 ---
 
-> **Fullstack, "Software Engineer"** | 2019 - 2020
+> **Full Stack Software Engineer** | 2019 - 2020
 
-For BentoBox’s CMS and hospitality website builder.
-
-Responsibilities included: Building new pages and components from feature requests and design boards and writing Python scripts to log data and build reports.
-
-Projects worked on: A B2B dashboard using Javascript/React on Python/Django REST Framework.
+Responsibilities included building new React/Redux UI components for a B2B dashboard, writing Python with Django REST framework to create new serializers, models, and API endpoints, and creating new Celery tasks to log errors and track reports
 
 | Category | Skills |
 | --- | --- |
@@ -59,17 +59,17 @@ Projects worked on: A B2B dashboard using Javascript/React on Python/Django REST
 
 ---
 
-> **Frontend, "Software Engineer"** | 2018 - 2019
+> **Software Engineer** | 2018 - 2019
 
-Contracted to Goldman Sachs to work on their suite of internal financial tools.
+As a contractor to Goldman Sachs:
 
-Responsibilities included building new pages and features from design boards, migrating code from Javascript to Typescript, and building training material on behalf of InRhythm.
+- Built new Typescript and React/MobX features for a real-time forex platform
+- Built new React and D3 features for a startup financials tracker
 
-Apps built from scratch: A startup investment platform app using React, Redux, and D3 on Java.
+As an engineer for InRhythm, responsibilities included...
 
-Apps contributed: A real-time Forex app using React, Typescript, and MobX on C#.
-
-Training materials created for InRhythm: Presentation material for a two-day workshop on Frontend Engineering at Verizon HQ; and a TDD app for training Java engineers on Node.js.
+- Co-lead workshops on React and Frontend Development for Fortune 500 companies
+- Created learning materials to teach Node.js to Java engineers
 
 | Category | Skills |
 | --- | --- |
@@ -81,11 +81,9 @@ Training materials created for InRhythm: Presentation material for a two-day wor
 
 ---
 
-> **Frontend, "Frontend Case Manager"** | 2017 - 2018
+> **Frontend Engineer** | 2017 - 2018
 
-For NetDriven’s portfolio of automotive industry websites.
-
-Responsibilities included: Adding and updating new pages and features based on design boards and client requests, writing HTML/CSS/Javascript for a DotNetNuke CMS platform, and contributing to 1,100+ individual static websites.
+Responsibilities included writing Javascript and HTML/CSS components for over 1,100+ static websites, building new pages and designs from Photoshop boards, optimizing Javascript and HTML/CSS for page speed and web accessibility, etc.
 
 | Category | Skills |
 | --- | --- |
@@ -97,25 +95,16 @@ Responsibilities included: Adding and updating new pages and features based on d
 
 ---
 
-> **Data Engineer, "Strategy & Analytics"** | 2014 - 2017
+> **Data Engineer, Strategy & Analytics** | 2014 - 2017
 
-For the Penn Foster call center’s internal tooling and analytics.
-
-Responsibilities included: Writing SQL to generate and automate reports, building new apps to improve employee workflows, building a CMS to merge internal tooling, and prototyping multiple projects to explore new revenue-generating ideas.
-
-Projects built from scratch:
-
-Multiple SQL-based scripts & dashboards using SQL Server and Oracle DB for weekly and quarterly reporting
-Automation scripts for gov’t assistance benefits using VBA with MS Excel/Access and the IBM AS/400
-Automation scripts for transcript reviews using VBA with MS Excel/Access
-A Javascript-based webform for performing enrollment calculations during live sales calls
-An employee CMS using jQuery and Python/Django
-Python scripts for managing Machine Learning data
-
-Additional projects contributed to:
-
-A C#.Net app for a specific team’s predictive analytics
-A client-facing Javascript with Ruby on Rails app
+- Wrote SQL queries for OracleDB, PostgreSQL, and SQL Server databases to manage daily, weekly, and quarterly reporting to mid-level and C-suite executives
+- Automated IBM AS/400 tasks with VBA and the MS COM to handle specialized enrollments
+- Automated IBM AS/400 tasks with VBA and the MS COM to handle student paperwork processing
+- Built a new Javascript and HTML/CSS app to handle sales calculations for call center agents
+- Wrote Python to process and pipe raw call center data to use with Machine Learning models
+- Prototyped a new Python and Django REST Framework app for use as a new CRM
+- Fixed bugs for an analytics C# app
+- Reviewed and spec'ing a new Ruby on Rails B2C app
 
 | Category | Skills |
 | --- | --- |
