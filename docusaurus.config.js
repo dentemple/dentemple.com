@@ -25,12 +25,6 @@ const navbar = {
   },
   items: [
     {
-      type: 'doc',
-      docId: 'resume/overview',
-      position: 'left',
-      label: 'My Resume',
-    },
-    {
       href: 'https://github.com/dentemple/dentemple.com',
       label: 'GitHub',
       position: 'right',

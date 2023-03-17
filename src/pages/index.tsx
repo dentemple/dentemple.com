@@ -16,11 +16,6 @@ function HomepageHeader() {
         <p className='hero__subtitle'>{siteConfig.tagline}</p>
         <div className={styles.buttonsRow}>
           <div className={styles.buttons}>
-            <Link className='button button--secondary button--lg' to='/docs/resume/overview'>
-              View My Resume
-            </Link>
-          </div>
-          <div className={styles.buttons}>
             <a
               className='button button--secondary linkedin button--lg'
               href='https://www.linkedin.com/in/dentemple'>
