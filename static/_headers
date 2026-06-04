@@ -1,0 +1,6 @@
+# Cloudflare Pages headers
+# https://developers.cloudflare.com/pages/platform/headers/
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin

@@ -1,0 +1,7 @@
+# Cloudflare Pages redirects
+# https://developers.cloudflare.com/pages/platform/redirects/
+
+# SPA fallback for client-side routes
+# /docs/* /docs/index.html 200  (if using client-side docs routing)
+
+# Ensure clean URLs work

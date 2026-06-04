@@ -1,6 +1,6 @@
 import React from 'react'
 import clsx from 'clsx'
-import styles from './styles.module.css'
+import * as styles from './styles.css'
 
 import IconSde from '@site/static/img/icon_sde.png'
 import IconTech from '@site/static/img/icon_tech.png'

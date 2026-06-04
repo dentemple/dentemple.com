@@ -3,6 +3,7 @@
 
 const lightCodeTheme = require('prism-react-renderer/themes/github')
 const darkCodeTheme = require('prism-react-renderer/themes/dracula')
+const { VanillaExtractPlugin } = require('@vanilla-extract/webpack-plugin')
 
 const docsPreset = {
   docs: {
@@ -12,16 +13,14 @@ const docsPreset = {
     editUrl:
       'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
   },
-  theme: {
-    customCss: require.resolve('./src/css/custom.css'),
-  },
+  theme: {},
 }
 
 const navbar = {
   title: 'Denny S. Temple',
   logo: {
-    alt: 'My Site Logo',
-    src: 'img/logo.svg',
+    alt: 'Denny S. Temple',
+    src: 'img/favicon.ico',
   },
   items: [
     {
@@ -43,11 +42,7 @@ const footer = {
       label: 'LinkedIn',
       href: 'https://www.linkedin.com/in/dentemple',
     },
-    {
-      label: 'Twitter',
-      href: 'https://twitter.com/dentemple',
-    },
-    {
+{
       html: `
       <a href="https://www.flaticon.com/free-icons/innovation" style="color: var(--ifm-color-primary-lightest)" title="flaticon icons">Flaticon icons created by juicy_fish</a>
       `,
@@ -70,6 +65,19 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+
+  plugins: [
+    function vanillaExtractPlugin() {
+      return {
+        name: 'vanilla-extract',
+        configureWebpack(config, isServer, utils) {
+          return {
+            plugins: [new VanillaExtractPlugin()],
+          }
+        },
+      }
+    },
+  ],
 
   presets: [
     [
